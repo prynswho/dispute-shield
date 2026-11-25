@@ -4,8 +4,9 @@ Live app: https://dispute-shield-production-67817c10.up.railway.app
 
 Public repository: https://github.com/prynswho/dispute-shield
 
-The repository includes docs, the approach draft, aggregate experiment reports,
-and frozen inference artifacts. Raw source CSVs, upload sessions, credentials,
+The repository includes technical docs, aggregate experiment reports,
+and frozen inference artifacts. The approach document is kept locally and
+submitted separately. Raw source CSVs, upload sessions, credentials,
 virtual environments, and installed dependencies are excluded from Git.
 
 The Docker image serves the built React frontend and FastAPI from one origin.
