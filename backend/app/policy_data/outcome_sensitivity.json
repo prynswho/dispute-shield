@@ -1,0 +1,1317 @@
+{
+  "counts": {
+    "open": 175,
+    "withdrawn": 96
+  },
+  "unscorable_rows": 0,
+  "policies": {
+    "address_mandatory": {
+      "reference": {
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 894,
+          "usd_lost": 1243318.55
+        },
+        "scenarios": [
+          {
+            "key": "attrition_2_conservative",
+            "change": {
+              "disputes": -13.1,
+              "disputes_lost": -7.5,
+              "usd_lost": -1608.2
+            },
+            "gap_share": 0.0,
+            "attrition_rate": 0.02
+          },
+          {
+            "key": "attrition_2_central",
+            "change": {
+              "disputes": -13.1,
+              "disputes_lost": -50.05,
+              "usd_lost": -72899.18
+            },
+            "gap_share": 0.5,
+            "attrition_rate": 0.02
+          },
+          {
+            "key": "attrition_2_optimistic",
+            "change": {
+              "disputes": -13.1,
+              "disputes_lost": -92.61,
+              "usd_lost": -144190.16
+            },
+            "gap_share": 1.0,
+            "attrition_rate": 0.02
+          },
+          {
+            "key": "attrition_3_conservative",
+            "change": {
+              "disputes": -19.65,
+              "disputes_lost": -11.25,
+              "usd_lost": -2412.31
+            },
+            "gap_share": 0.0,
+            "attrition_rate": 0.03
+          },
+          {
+            "key": "central",
+            "change": {
+              "disputes": -19.65,
+              "disputes_lost": -53.67,
+              "usd_lost": -73674.35
+            },
+            "gap_share": 0.5,
+            "attrition_rate": 0.03
+          },
+          {
+            "key": "attrition_3_optimistic",
+            "change": {
+              "disputes": -19.65,
+              "disputes_lost": -96.08,
+              "usd_lost": -144936.39
+            },
+            "gap_share": 1.0,
+            "attrition_rate": 0.03
+          },
+          {
+            "key": "attrition_4_conservative",
+            "change": {
+              "disputes": -26.2,
+              "disputes_lost": -15.0,
+              "usd_lost": -3216.41
+            },
+            "gap_share": 0.0,
+            "attrition_rate": 0.04
+          },
+          {
+            "key": "attrition_4_central",
+            "change": {
+              "disputes": -26.2,
+              "disputes_lost": -57.28,
+              "usd_lost": -74449.52
+            },
+            "gap_share": 0.5,
+            "attrition_rate": 0.04
+          },
+          {
+            "key": "attrition_4_optimistic",
+            "change": {
+              "disputes": -26.2,
+              "disputes_lost": -99.56,
+              "usd_lost": -145682.62
+            },
+            "gap_share": 1.0,
+            "attrition_rate": 0.04
+          }
+        ]
+      },
+      "modes": {
+        "open_expected": [
+          {
+            "reference_key": "attrition_2_conservative",
+            "open_treatment": "all_won",
+            "baseline_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "attrition_2_conservative",
+            "open_treatment": "predicted",
+            "baseline_add": {
+              "disputes_lost": 115.57603599056236,
+              "usd_lost": 159069.80946570486
+            },
+            "attrition_add": {
+              "disputes_lost": 0.7867321408245459,
+              "usd_lost": 170.05030450514028
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "attrition_2_conservative",
+            "open_treatment": "all_lost",
+            "baseline_add": {
+              "disputes_lost": 175.0,
+              "usd_lost": 215602.99
+            },
+            "attrition_add": {
+              "disputes_lost": 1.2800000000000007,
+              "usd_lost": 273.6744
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "attrition_2_central",
+            "open_treatment": "all_won",
+            "baseline_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "attrition_2_central",
+            "open_treatment": "predicted",
+            "baseline_add": {
+              "disputes_lost": 115.57603599056236,
+              "usd_lost": 159069.80946570486
+            },
+            "attrition_add": {
+              "disputes_lost": 0.7867321408245459,
+              "usd_lost": 170.05030450514028
+            },
+            "evidence_add": {
+              "disputes_lost": 5.509809233137367,
+              "usd_lost": 10147.88805253755
+            }
+          },
+          {
+            "reference_key": "attrition_2_central",
+            "open_treatment": "all_lost",
+            "baseline_add": {
+              "disputes_lost": 175.0,
+              "usd_lost": 215602.99
+            },
+            "attrition_add": {
+              "disputes_lost": 1.2800000000000007,
+              "usd_lost": 273.6744
+            },
+            "evidence_add": {
+              "disputes_lost": 5.509809233137369,
+              "usd_lost": 10147.888052537543
+            }
+          },
+          {
+            "reference_key": "attrition_2_optimistic",
+            "open_treatment": "all_won",
+            "baseline_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "attrition_2_optimistic",
+            "open_treatment": "predicted",
+            "baseline_add": {
+              "disputes_lost": 115.57603599056236,
+              "usd_lost": 159069.80946570486
+            },
+            "attrition_add": {
+              "disputes_lost": 0.7867321408245459,
+              "usd_lost": 170.05030450514028
+            },
+            "evidence_add": {
+              "disputes_lost": 11.01961846627473,
+              "usd_lost": 20295.776105075092
+            }
+          },
+          {
+            "reference_key": "attrition_2_optimistic",
+            "open_treatment": "all_lost",
+            "baseline_add": {
+              "disputes_lost": 175.0,
+              "usd_lost": 215602.99
+            },
+            "attrition_add": {
+              "disputes_lost": 1.2800000000000007,
+              "usd_lost": 273.6744
+            },
+            "evidence_add": {
+              "disputes_lost": 11.01961846627473,
+              "usd_lost": 20295.776105075092
+            }
+          },
+          {
+            "reference_key": "attrition_3_conservative",
+            "open_treatment": "all_won",
+            "baseline_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "attrition_3_conservative",
+            "open_treatment": "predicted",
+            "baseline_add": {
+              "disputes_lost": 115.57603599056236,
+              "usd_lost": 159069.80946570486
+            },
+            "attrition_add": {
+              "disputes_lost": 1.1800982112368181,
+              "usd_lost": 255.0754567577106
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "attrition_3_conservative",
+            "open_treatment": "all_lost",
+            "baseline_add": {
+              "disputes_lost": 175.0,
+              "usd_lost": 215602.99
+            },
+            "attrition_add": {
+              "disputes_lost": 1.9200000000000015,
+              "usd_lost": 410.5115999999999
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "central",
+            "open_treatment": "all_won",
+            "baseline_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "central",
+            "open_treatment": "predicted",
+            "baseline_add": {
+              "disputes_lost": 115.57603599056236,
+              "usd_lost": 159069.80946570486
+            },
+            "attrition_add": {
+              "disputes_lost": 1.1800982112368181,
+              "usd_lost": 255.0754567577106
+            },
+            "evidence_add": {
+              "disputes_lost": 5.497536180103442,
+              "usd_lost": 10145.287598786954
+            }
+          },
+          {
+            "reference_key": "central",
+            "open_treatment": "all_lost",
+            "baseline_add": {
+              "disputes_lost": 175.0,
+              "usd_lost": 215602.99
+            },
+            "attrition_add": {
+              "disputes_lost": 1.9200000000000015,
+              "usd_lost": 410.5115999999999
+            },
+            "evidence_add": {
+              "disputes_lost": 5.497536180103442,
+              "usd_lost": 10145.287598786948
+            }
+          },
+          {
+            "reference_key": "attrition_3_optimistic",
+            "open_treatment": "all_won",
+            "baseline_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "attrition_3_optimistic",
+            "open_treatment": "predicted",
+            "baseline_add": {
+              "disputes_lost": 115.57603599056236,
+              "usd_lost": 159069.80946570486
+            },
+            "attrition_add": {
+              "disputes_lost": 1.1800982112368181,
+              "usd_lost": 255.0754567577106
+            },
+            "evidence_add": {
+              "disputes_lost": 10.995072360206885,
+              "usd_lost": 20290.575197573908
+            }
+          },
+          {
+            "reference_key": "attrition_3_optimistic",
+            "open_treatment": "all_lost",
+            "baseline_add": {
+              "disputes_lost": 175.0,
+              "usd_lost": 215602.99
+            },
+            "attrition_add": {
+              "disputes_lost": 1.9200000000000015,
+              "usd_lost": 410.5115999999999
+            },
+            "evidence_add": {
+              "disputes_lost": 10.995072360206885,
+              "usd_lost": 20290.575197573908
+            }
+          },
+          {
+            "reference_key": "attrition_4_conservative",
+            "open_treatment": "all_won",
+            "baseline_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "attrition_4_conservative",
+            "open_treatment": "predicted",
+            "baseline_add": {
+              "disputes_lost": 115.57603599056236,
+              "usd_lost": 159069.80946570486
+            },
+            "attrition_add": {
+              "disputes_lost": 1.5734642816490918,
+              "usd_lost": 340.10060901028055
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "attrition_4_conservative",
+            "open_treatment": "all_lost",
+            "baseline_add": {
+              "disputes_lost": 175.0,
+              "usd_lost": 215602.99
+            },
+            "attrition_add": {
+              "disputes_lost": 2.5600000000000014,
+              "usd_lost": 547.3488
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "attrition_4_central",
+            "open_treatment": "all_won",
+            "baseline_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "attrition_4_central",
+            "open_treatment": "predicted",
+            "baseline_add": {
+              "disputes_lost": 115.57603599056236,
+              "usd_lost": 159069.80946570486
+            },
+            "attrition_add": {
+              "disputes_lost": 1.5734642816490918,
+              "usd_lost": 340.10060901028055
+            },
+            "evidence_add": {
+              "disputes_lost": 5.48526312706952,
+              "usd_lost": 10142.687145036354
+            }
+          },
+          {
+            "reference_key": "attrition_4_central",
+            "open_treatment": "all_lost",
+            "baseline_add": {
+              "disputes_lost": 175.0,
+              "usd_lost": 215602.99
+            },
+            "attrition_add": {
+              "disputes_lost": 2.5600000000000014,
+              "usd_lost": 547.3488
+            },
+            "evidence_add": {
+              "disputes_lost": 5.485263127069519,
+              "usd_lost": 10142.687145036349
+            }
+          },
+          {
+            "reference_key": "attrition_4_optimistic",
+            "open_treatment": "all_won",
+            "baseline_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "attrition_4_optimistic",
+            "open_treatment": "predicted",
+            "baseline_add": {
+              "disputes_lost": 115.57603599056236,
+              "usd_lost": 159069.80946570486
+            },
+            "attrition_add": {
+              "disputes_lost": 1.5734642816490918,
+              "usd_lost": 340.10060901028055
+            },
+            "evidence_add": {
+              "disputes_lost": 10.97052625413904,
+              "usd_lost": 20285.374290072705
+            }
+          },
+          {
+            "reference_key": "attrition_4_optimistic",
+            "open_treatment": "all_lost",
+            "baseline_add": {
+              "disputes_lost": 175.0,
+              "usd_lost": 215602.99
+            },
+            "attrition_add": {
+              "disputes_lost": 2.5600000000000014,
+              "usd_lost": 547.3488
+            },
+            "evidence_add": {
+              "disputes_lost": 10.97052625413904,
+              "usd_lost": 20285.374290072705
+            }
+          }
+        ],
+        "withdrawn_sensitivity": [
+          {
+            "reference_key": "attrition_2_conservative",
+            "open_treatment": "all_won",
+            "baseline_add": {
+              "disputes_lost": 66.84962495254251,
+              "usd_lost": 58768.781092765304
+            },
+            "attrition_add": {
+              "disputes_lost": 0.5608182424869302,
+              "usd_lost": 111.88254946597264
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "attrition_2_conservative",
+            "open_treatment": "predicted",
+            "baseline_add": {
+              "disputes_lost": 182.4256609431049,
+              "usd_lost": 217838.5905584701
+            },
+            "attrition_add": {
+              "disputes_lost": 1.3475503833114755,
+              "usd_lost": 281.9328539711131
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "attrition_2_conservative",
+            "open_treatment": "all_lost",
+            "baseline_add": {
+              "disputes_lost": 241.8496249525425,
+              "usd_lost": 274371.7710927654
+            },
+            "attrition_add": {
+              "disputes_lost": 1.8408182424869313,
+              "usd_lost": 385.5569494659726
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "attrition_2_central",
+            "open_treatment": "all_won",
+            "baseline_add": {
+              "disputes_lost": 66.84962495254251,
+              "usd_lost": 58768.781092765304
+            },
+            "attrition_add": {
+              "disputes_lost": 0.5608182424869302,
+              "usd_lost": 111.88254946597264
+            },
+            "evidence_add": {
+              "disputes_lost": 3.0292474300398307,
+              "usd_lost": 3151.677363263318
+            }
+          },
+          {
+            "reference_key": "attrition_2_central",
+            "open_treatment": "predicted",
+            "baseline_add": {
+              "disputes_lost": 182.4256609431049,
+              "usd_lost": 217838.5905584701
+            },
+            "attrition_add": {
+              "disputes_lost": 1.3475503833114755,
+              "usd_lost": 281.9328539711131
+            },
+            "evidence_add": {
+              "disputes_lost": 8.539056663177199,
+              "usd_lost": 13299.565415800867
+            }
+          },
+          {
+            "reference_key": "attrition_2_central",
+            "open_treatment": "all_lost",
+            "baseline_add": {
+              "disputes_lost": 241.8496249525425,
+              "usd_lost": 274371.7710927654
+            },
+            "attrition_add": {
+              "disputes_lost": 1.8408182424869313,
+              "usd_lost": 385.5569494659726
+            },
+            "evidence_add": {
+              "disputes_lost": 8.539056663177199,
+              "usd_lost": 13299.565415800856
+            }
+          },
+          {
+            "reference_key": "attrition_2_optimistic",
+            "open_treatment": "all_won",
+            "baseline_add": {
+              "disputes_lost": 66.84962495254251,
+              "usd_lost": 58768.781092765304
+            },
+            "attrition_add": {
+              "disputes_lost": 0.5608182424869302,
+              "usd_lost": 111.88254946597264
+            },
+            "evidence_add": {
+              "disputes_lost": 6.058494860079657,
+              "usd_lost": 6303.354726526633
+            }
+          },
+          {
+            "reference_key": "attrition_2_optimistic",
+            "open_treatment": "predicted",
+            "baseline_add": {
+              "disputes_lost": 182.4256609431049,
+              "usd_lost": 217838.5905584701
+            },
+            "attrition_add": {
+              "disputes_lost": 1.3475503833114755,
+              "usd_lost": 281.9328539711131
+            },
+            "evidence_add": {
+              "disputes_lost": 17.07811332635439,
+              "usd_lost": 26599.130831601735
+            }
+          },
+          {
+            "reference_key": "attrition_2_optimistic",
+            "open_treatment": "all_lost",
+            "baseline_add": {
+              "disputes_lost": 241.8496249525425,
+              "usd_lost": 274371.7710927654
+            },
+            "attrition_add": {
+              "disputes_lost": 1.8408182424869313,
+              "usd_lost": 385.5569494659726
+            },
+            "evidence_add": {
+              "disputes_lost": 17.07811332635439,
+              "usd_lost": 26599.130831601735
+            }
+          },
+          {
+            "reference_key": "attrition_3_conservative",
+            "open_treatment": "all_won",
+            "baseline_add": {
+              "disputes_lost": 66.84962495254251,
+              "usd_lost": 58768.781092765304
+            },
+            "attrition_add": {
+              "disputes_lost": 0.8412273637303953,
+              "usd_lost": 167.823824198959
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "attrition_3_conservative",
+            "open_treatment": "predicted",
+            "baseline_add": {
+              "disputes_lost": 182.4256609431049,
+              "usd_lost": 217838.5905584701
+            },
+            "attrition_add": {
+              "disputes_lost": 2.0213255749672125,
+              "usd_lost": 422.8992809566694
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "attrition_3_conservative",
+            "open_treatment": "all_lost",
+            "baseline_add": {
+              "disputes_lost": 241.8496249525425,
+              "usd_lost": 274371.7710927654
+            },
+            "attrition_add": {
+              "disputes_lost": 2.7612273637303915,
+              "usd_lost": 578.3354241989589
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "central",
+            "open_treatment": "all_won",
+            "baseline_add": {
+              "disputes_lost": 66.84962495254251,
+              "usd_lost": 58768.781092765304
+            },
+            "attrition_add": {
+              "disputes_lost": 0.8412273637303953,
+              "usd_lost": 167.823824198959
+            },
+            "evidence_add": {
+              "disputes_lost": 3.0189380654913345,
+              "usd_lost": 3149.465410551899
+            }
+          },
+          {
+            "reference_key": "central",
+            "open_treatment": "predicted",
+            "baseline_add": {
+              "disputes_lost": 182.4256609431049,
+              "usd_lost": 217838.5905584701
+            },
+            "attrition_add": {
+              "disputes_lost": 2.0213255749672125,
+              "usd_lost": 422.8992809566694
+            },
+            "evidence_add": {
+              "disputes_lost": 8.516474245594777,
+              "usd_lost": 13294.753009338854
+            }
+          },
+          {
+            "reference_key": "central",
+            "open_treatment": "all_lost",
+            "baseline_add": {
+              "disputes_lost": 241.8496249525425,
+              "usd_lost": 274371.7710927654
+            },
+            "attrition_add": {
+              "disputes_lost": 2.7612273637303915,
+              "usd_lost": 578.3354241989589
+            },
+            "evidence_add": {
+              "disputes_lost": 8.516474245594777,
+              "usd_lost": 13294.753009338845
+            }
+          },
+          {
+            "reference_key": "attrition_3_optimistic",
+            "open_treatment": "all_won",
+            "baseline_add": {
+              "disputes_lost": 66.84962495254251,
+              "usd_lost": 58768.781092765304
+            },
+            "attrition_add": {
+              "disputes_lost": 0.8412273637303953,
+              "usd_lost": 167.823824198959
+            },
+            "evidence_add": {
+              "disputes_lost": 6.037876130982668,
+              "usd_lost": 6298.930821103794
+            }
+          },
+          {
+            "reference_key": "attrition_3_optimistic",
+            "open_treatment": "predicted",
+            "baseline_add": {
+              "disputes_lost": 182.4256609431049,
+              "usd_lost": 217838.5905584701
+            },
+            "attrition_add": {
+              "disputes_lost": 2.0213255749672125,
+              "usd_lost": 422.8992809566694
+            },
+            "evidence_add": {
+              "disputes_lost": 17.032948491189554,
+              "usd_lost": 26589.506018677715
+            }
+          },
+          {
+            "reference_key": "attrition_3_optimistic",
+            "open_treatment": "all_lost",
+            "baseline_add": {
+              "disputes_lost": 241.8496249525425,
+              "usd_lost": 274371.7710927654
+            },
+            "attrition_add": {
+              "disputes_lost": 2.7612273637303915,
+              "usd_lost": 578.3354241989589
+            },
+            "evidence_add": {
+              "disputes_lost": 17.032948491189554,
+              "usd_lost": 26589.506018677715
+            }
+          },
+          {
+            "reference_key": "attrition_4_conservative",
+            "open_treatment": "all_won",
+            "baseline_add": {
+              "disputes_lost": 66.84962495254251,
+              "usd_lost": 58768.781092765304
+            },
+            "attrition_add": {
+              "disputes_lost": 1.1216364849738605,
+              "usd_lost": 223.7650989319453
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "attrition_4_conservative",
+            "open_treatment": "predicted",
+            "baseline_add": {
+              "disputes_lost": 182.4256609431049,
+              "usd_lost": 217838.5905584701
+            },
+            "attrition_add": {
+              "disputes_lost": 2.695100766622951,
+              "usd_lost": 563.8657079422262
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "attrition_4_conservative",
+            "open_treatment": "all_lost",
+            "baseline_add": {
+              "disputes_lost": 241.8496249525425,
+              "usd_lost": 274371.7710927654
+            },
+            "attrition_add": {
+              "disputes_lost": 3.6816364849738625,
+              "usd_lost": 771.1138989319452
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "attrition_4_central",
+            "open_treatment": "all_won",
+            "baseline_add": {
+              "disputes_lost": 66.84962495254251,
+              "usd_lost": 58768.781092765304
+            },
+            "attrition_add": {
+              "disputes_lost": 1.1216364849738605,
+              "usd_lost": 223.7650989319453
+            },
+            "evidence_add": {
+              "disputes_lost": 3.00862870094284,
+              "usd_lost": 3147.2534578404798
+            }
+          },
+          {
+            "reference_key": "attrition_4_central",
+            "open_treatment": "predicted",
+            "baseline_add": {
+              "disputes_lost": 182.4256609431049,
+              "usd_lost": 217838.5905584701
+            },
+            "attrition_add": {
+              "disputes_lost": 2.695100766622951,
+              "usd_lost": 563.8657079422262
+            },
+            "evidence_add": {
+              "disputes_lost": 8.493891828012357,
+              "usd_lost": 13289.940602876835
+            }
+          },
+          {
+            "reference_key": "attrition_4_central",
+            "open_treatment": "all_lost",
+            "baseline_add": {
+              "disputes_lost": 241.8496249525425,
+              "usd_lost": 274371.7710927654
+            },
+            "attrition_add": {
+              "disputes_lost": 3.6816364849738625,
+              "usd_lost": 771.1138989319452
+            },
+            "evidence_add": {
+              "disputes_lost": 8.493891828012357,
+              "usd_lost": 13289.940602876824
+            }
+          },
+          {
+            "reference_key": "attrition_4_optimistic",
+            "open_treatment": "all_won",
+            "baseline_add": {
+              "disputes_lost": 66.84962495254251,
+              "usd_lost": 58768.781092765304
+            },
+            "attrition_add": {
+              "disputes_lost": 1.1216364849738605,
+              "usd_lost": 223.7650989319453
+            },
+            "evidence_add": {
+              "disputes_lost": 6.01725740188568,
+              "usd_lost": 6294.506915680959
+            }
+          },
+          {
+            "reference_key": "attrition_4_optimistic",
+            "open_treatment": "predicted",
+            "baseline_add": {
+              "disputes_lost": 182.4256609431049,
+              "usd_lost": 217838.5905584701
+            },
+            "attrition_add": {
+              "disputes_lost": 2.695100766622951,
+              "usd_lost": 563.8657079422262
+            },
+            "evidence_add": {
+              "disputes_lost": 16.987783656024714,
+              "usd_lost": 26579.881205753674
+            }
+          },
+          {
+            "reference_key": "attrition_4_optimistic",
+            "open_treatment": "all_lost",
+            "baseline_add": {
+              "disputes_lost": 241.8496249525425,
+              "usd_lost": 274371.7710927654
+            },
+            "attrition_add": {
+              "disputes_lost": 3.6816364849738625,
+              "usd_lost": 771.1138989319452
+            },
+            "evidence_add": {
+              "disputes_lost": 16.987783656024714,
+              "usd_lost": 26579.881205753674
+            }
+          }
+        ]
+      }
+    },
+    "signed_estimate_over_1000": {
+      "reference": {
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 894,
+          "usd_lost": 1243318.55
+        },
+        "scenarios": [
+          {
+            "key": "conservative",
+            "change": {
+              "disputes": 0,
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "gap_share": 0.0,
+            "attrition_rate": 0
+          },
+          {
+            "key": "central",
+            "change": {
+              "disputes": 0,
+              "disputes_lost": -18.4,
+              "usd_lost": -86511.49
+            },
+            "gap_share": 0.5,
+            "attrition_rate": 0
+          },
+          {
+            "key": "optimistic",
+            "change": {
+              "disputes": 0,
+              "disputes_lost": -36.81,
+              "usd_lost": -173022.99
+            },
+            "gap_share": 1.0,
+            "attrition_rate": 0
+          }
+        ]
+      },
+      "modes": {
+        "open_expected": [
+          {
+            "reference_key": "conservative",
+            "open_treatment": "all_won",
+            "baseline_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "conservative",
+            "open_treatment": "predicted",
+            "baseline_add": {
+              "disputes_lost": 115.57603599056236,
+              "usd_lost": 159069.80946570486
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "conservative",
+            "open_treatment": "all_lost",
+            "baseline_add": {
+              "disputes_lost": 175.0,
+              "usd_lost": 215602.99
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "central",
+            "open_treatment": "all_won",
+            "baseline_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "central",
+            "open_treatment": "predicted",
+            "baseline_add": {
+              "disputes_lost": 115.57603599056236,
+              "usd_lost": 159069.80946570486
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 2.8492236607561687,
+              "usd_lost": 10960.984376387714
+            }
+          },
+          {
+            "reference_key": "central",
+            "open_treatment": "all_lost",
+            "baseline_add": {
+              "disputes_lost": 175.0,
+              "usd_lost": 215602.99
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 2.8492236607561687,
+              "usd_lost": 10960.984376387716
+            }
+          },
+          {
+            "reference_key": "optimistic",
+            "open_treatment": "all_won",
+            "baseline_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "optimistic",
+            "open_treatment": "predicted",
+            "baseline_add": {
+              "disputes_lost": 115.57603599056236,
+              "usd_lost": 159069.80946570486
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 5.6984473215123375,
+              "usd_lost": 21921.968752775432
+            }
+          },
+          {
+            "reference_key": "optimistic",
+            "open_treatment": "all_lost",
+            "baseline_add": {
+              "disputes_lost": 175.0,
+              "usd_lost": 215602.99
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 5.6984473215123375,
+              "usd_lost": 21921.968752775432
+            }
+          }
+        ],
+        "withdrawn_sensitivity": [
+          {
+            "reference_key": "conservative",
+            "open_treatment": "all_won",
+            "baseline_add": {
+              "disputes_lost": 66.84962495254251,
+              "usd_lost": 58768.781092765304
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "conservative",
+            "open_treatment": "predicted",
+            "baseline_add": {
+              "disputes_lost": 182.4256609431049,
+              "usd_lost": 217838.5905584701
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "conservative",
+            "open_treatment": "all_lost",
+            "baseline_add": {
+              "disputes_lost": 241.8496249525425,
+              "usd_lost": 274371.7710927654
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            }
+          },
+          {
+            "reference_key": "central",
+            "open_treatment": "all_won",
+            "baseline_add": {
+              "disputes_lost": 66.84962495254251,
+              "usd_lost": 58768.781092765304
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 1.034415361040748,
+              "usd_lost": 2521.440239455963
+            }
+          },
+          {
+            "reference_key": "central",
+            "open_treatment": "predicted",
+            "baseline_add": {
+              "disputes_lost": 182.4256609431049,
+              "usd_lost": 217838.5905584701
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 3.883639021796918,
+              "usd_lost": 13482.424615843678
+            }
+          },
+          {
+            "reference_key": "central",
+            "open_treatment": "all_lost",
+            "baseline_add": {
+              "disputes_lost": 241.8496249525425,
+              "usd_lost": 274371.7710927654
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 3.883639021796918,
+              "usd_lost": 13482.42461584368
+            }
+          },
+          {
+            "reference_key": "optimistic",
+            "open_treatment": "all_won",
+            "baseline_add": {
+              "disputes_lost": 66.84962495254251,
+              "usd_lost": 58768.781092765304
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 2.0688307220814965,
+              "usd_lost": 5042.880478911926
+            }
+          },
+          {
+            "reference_key": "optimistic",
+            "open_treatment": "predicted",
+            "baseline_add": {
+              "disputes_lost": 182.4256609431049,
+              "usd_lost": 217838.5905584701
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 7.767278043593833,
+              "usd_lost": 26964.849231687353
+            }
+          },
+          {
+            "reference_key": "optimistic",
+            "open_treatment": "all_lost",
+            "baseline_add": {
+              "disputes_lost": 241.8496249525425,
+              "usd_lost": 274371.7710927654
+            },
+            "attrition_add": {
+              "disputes_lost": 0.0,
+              "usd_lost": 0.0
+            },
+            "evidence_add": {
+              "disputes_lost": 7.767278043593836,
+              "usd_lost": 26964.849231687356
+            }
+          }
+        ]
+      }
+    }
+  },
+  "model_sha256": "ffc58a89a00f7ceebcf164fd011ebd0e38255981ae58dcb763566ad70aadbd8c",
+  "source": "Frozen dispute logistic v1 scored local open and withdrawn cases. Only aggregate policy effects are retained."
+}

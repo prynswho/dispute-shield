@@ -1,0 +1,18 @@
+{
+  "period": "Months 1–22",
+  "source": "Invoice-status and per-reason dispute aggregates supplied by the user in chat. Invoice amount is strictly greater than $1,000. Portfolio baseline comes from the user's historical address aggregates.",
+  "baseline": {"disputes": 1592, "disputes_lost": 894, "usd_lost": 1243318.55},
+  "invoice_amount_gt": 1000,
+  "invoice_counts": {
+    "unsigned": {"paid": 13244, "open": 623, "disputed": 264},
+    "signed": {"paid": 13579, "open": 591, "disputed": 145}
+  },
+  "excluded_benefit_reasons": ["duplicate"],
+  "groups": [
+    {"reason": "service_not_provided", "unsigned": {"lost": 32, "won": 12, "withdrawn": 6, "open": 9, "lost_principal": 123602.50}, "signed": {"lost": 17, "won": 10, "withdrawn": 2, "open": 7, "lost_principal": 74395.34}},
+    {"reason": "fraud", "unsigned": {"lost": 63, "won": 17, "withdrawn": 7, "open": 7, "lost_principal": 285054.18}, "signed": {"lost": 36, "won": 6, "withdrawn": 2, "open": 7, "lost_principal": 155780.72}},
+    {"reason": "not_as_described", "unsigned": {"lost": 55, "won": 21, "withdrawn": 4, "open": 13, "lost_principal": 265637.76}, "signed": {"lost": 12, "won": 22, "withdrawn": 5, "open": 9, "lost_principal": 48315.18}},
+    {"reason": "credit_not_processed", "unsigned": {"lost": 9, "won": 5, "withdrawn": 0, "open": 0, "lost_principal": 40337.94}, "signed": {"lost": 2, "won": 4, "withdrawn": 1, "open": 0, "lost_principal": 2394.75}},
+    {"reason": "duplicate", "unsigned": {"lost": 1, "won": 3, "withdrawn": 0, "open": 0, "lost_principal": 1596.54}, "signed": {"lost": 0, "won": 3, "withdrawn": 0, "open": 0, "lost_principal": 0}}
+  ]
+}

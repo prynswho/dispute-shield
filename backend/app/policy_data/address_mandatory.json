@@ -1,0 +1,11 @@
+{
+  "period": "Months 1–22",
+  "source": "Aggregate SQL results supplied by the user in this chat. No source CSVs were read for this policy.",
+  "missing_invoice_payments": 52,
+  "groups": [
+    {"address": "absent", "band": "300_or_more", "invoices": 52017, "invoices_with_payments": 49714, "payments": 49820, "lost": 318, "won": 117, "open": 64, "withdrawn": 30, "usd_lost": 743610.61},
+    {"address": "absent", "band": "under_300", "invoices": 52869, "invoices_with_payments": 50631, "payments": 50749, "lost": 202, "won": 74, "open": 25, "withdrawn": 21, "usd_lost": 43136.66},
+    {"address": "present", "band": "300_or_more", "invoices": 61815, "invoices_with_payments": 59237, "payments": 59368, "lost": 201, "won": 136, "open": 47, "withdrawn": 24, "usd_lost": 419297.76},
+    {"address": "present", "band": "under_300", "invoices": 64007, "invoices_with_payments": 61217, "payments": 61355, "lost": 173, "won": 100, "open": 39, "withdrawn": 21, "usd_lost": 37273.52}
+  ]
+}
