@@ -1,0 +1,4856 @@
+{
+  "reasons": [
+    {
+      "reason": "credit_not_processed",
+      "disputes": 115,
+      "wins": 37,
+      "losses": 61,
+      "open": 8,
+      "withdrawn": 9,
+      "win_rate": 0.37755102040816324,
+      "usd_lost": 61362.67
+    },
+    {
+      "reason": "duplicate",
+      "disputes": 53,
+      "wins": 25,
+      "losses": 25,
+      "open": 2,
+      "withdrawn": 1,
+      "win_rate": 0.5,
+      "usd_lost": 9359.91
+    },
+    {
+      "reason": "fraud",
+      "disputes": 557,
+      "wins": 122,
+      "losses": 343,
+      "open": 63,
+      "withdrawn": 29,
+      "win_rate": 0.2623655913978495,
+      "usd_lost": 530276.11
+    },
+    {
+      "reason": "not_as_described",
+      "disputes": 400,
+      "wins": 115,
+      "losses": 210,
+      "open": 49,
+      "withdrawn": 26,
+      "win_rate": 0.35384615384615387,
+      "usd_lost": 367916.68
+    },
+    {
+      "reason": "service_not_provided",
+      "disputes": 467,
+      "wins": 128,
+      "losses": 255,
+      "open": 53,
+      "withdrawn": 31,
+      "win_rate": 0.3342036553524804,
+      "usd_lost": 274403.18
+    }
+  ],
+  "teams": [
+    {
+      "team_id": "TM2001",
+      "payments": 280,
+      "disputes": 2,
+      "wins": 0,
+      "losses": 2,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 10264.17,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 171
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 231
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 178
+        }
+      ]
+    },
+    {
+      "team_id": "TM2002",
+      "payments": 1962,
+      "disputes": 6,
+      "wins": 4,
+      "losses": 2,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 5699.7,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 615
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1015
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1458
+        }
+      ]
+    },
+    {
+      "team_id": "TM2003",
+      "payments": 408,
+      "disputes": 1,
+      "wins": 0,
+      "losses": 1,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 1992.64,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 100
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 150
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 422
+        }
+      ]
+    },
+    {
+      "team_id": "TM2004",
+      "payments": 709,
+      "disputes": 8,
+      "wins": 5,
+      "losses": 2,
+      "open": 0,
+      "withdrawn": 1,
+      "usd_lost": 3832.48,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 273
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 388
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 734
+        }
+      ]
+    },
+    {
+      "team_id": "TM2005",
+      "payments": 556,
+      "disputes": 3,
+      "wins": 2,
+      "losses": 1,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 267.39,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 152
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 226
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 587
+        }
+      ]
+    },
+    {
+      "team_id": "TM2006",
+      "payments": 2294,
+      "disputes": 8,
+      "wins": 1,
+      "losses": 5,
+      "open": 1,
+      "withdrawn": 1,
+      "usd_lost": 1346.44,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 902
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1325
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1577
+        }
+      ]
+    },
+    {
+      "team_id": "TM2007",
+      "payments": 933,
+      "disputes": 6,
+      "wins": 2,
+      "losses": 3,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 909.58,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 429
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 591
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 741
+        }
+      ]
+    },
+    {
+      "team_id": "TM2008",
+      "payments": 810,
+      "disputes": 1,
+      "wins": 1,
+      "losses": 0,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 332
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 447
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 550
+        }
+      ]
+    },
+    {
+      "team_id": "TM2009",
+      "payments": 575,
+      "disputes": 2,
+      "wins": 1,
+      "losses": 1,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 370.32,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 365
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 505
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 589
+        }
+      ]
+    },
+    {
+      "team_id": "TM2010",
+      "payments": 999,
+      "disputes": 25,
+      "wins": 5,
+      "losses": 15,
+      "open": 3,
+      "withdrawn": 2,
+      "usd_lost": 108876.85,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 806
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 964
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1051
+        }
+      ]
+    },
+    {
+      "team_id": "TM2011",
+      "payments": 3447,
+      "disputes": 45,
+      "wins": 9,
+      "losses": 23,
+      "open": 8,
+      "withdrawn": 5,
+      "usd_lost": 38062.49,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 2473
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 3114
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 3570
+        }
+      ]
+    },
+    {
+      "team_id": "TM2012",
+      "payments": 1122,
+      "disputes": 10,
+      "wins": 2,
+      "losses": 6,
+      "open": 2,
+      "withdrawn": 0,
+      "usd_lost": 1226.73,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 754
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1022
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1172
+        }
+      ]
+    },
+    {
+      "team_id": "TM2013",
+      "payments": 810,
+      "disputes": 7,
+      "wins": 1,
+      "losses": 4,
+      "open": 1,
+      "withdrawn": 1,
+      "usd_lost": 2763.89,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 290
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 423
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 621
+        }
+      ]
+    },
+    {
+      "team_id": "TM2014",
+      "payments": 644,
+      "disputes": 2,
+      "wins": 0,
+      "losses": 2,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 497.92,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 262
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 400
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 342
+        }
+      ]
+    },
+    {
+      "team_id": "TM2015",
+      "payments": 987,
+      "disputes": 14,
+      "wins": 2,
+      "losses": 7,
+      "open": 4,
+      "withdrawn": 1,
+      "usd_lost": 8568.46,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 684
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 900
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 732
+        }
+      ]
+    },
+    {
+      "team_id": "TM2016",
+      "payments": 822,
+      "disputes": 2,
+      "wins": 1,
+      "losses": 1,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 523.15,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 231
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 376
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 592
+        }
+      ]
+    },
+    {
+      "team_id": "TM2017",
+      "payments": 2620,
+      "disputes": 30,
+      "wins": 6,
+      "losses": 19,
+      "open": 4,
+      "withdrawn": 1,
+      "usd_lost": 16662.21,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 1524
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 2145
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1466
+        }
+      ]
+    },
+    {
+      "team_id": "TM2018",
+      "payments": 1635,
+      "disputes": 8,
+      "wins": 4,
+      "losses": 3,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 1339.01,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 196
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 258
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1179
+        }
+      ]
+    },
+    {
+      "team_id": "TM2019",
+      "payments": 1065,
+      "disputes": 4,
+      "wins": 2,
+      "losses": 1,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 848.3,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 488
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 713
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 791
+        }
+      ]
+    },
+    {
+      "team_id": "TM2020",
+      "payments": 2170,
+      "disputes": 10,
+      "wins": 4,
+      "losses": 5,
+      "open": 0,
+      "withdrawn": 1,
+      "usd_lost": 1283.13,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 833
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1298
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1666
+        }
+      ]
+    },
+    {
+      "team_id": "TM2021",
+      "payments": 1403,
+      "disputes": 7,
+      "wins": 1,
+      "losses": 6,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 1478.93,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 803
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1169
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 951
+        }
+      ]
+    },
+    {
+      "team_id": "TM2022",
+      "payments": 1247,
+      "disputes": 6,
+      "wins": 1,
+      "losses": 4,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 1901.01,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 496
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 774
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 953
+        }
+      ]
+    },
+    {
+      "team_id": "TM2023",
+      "payments": 221,
+      "disputes": 2,
+      "wins": 1,
+      "losses": 0,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 142
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 162
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 234
+        }
+      ]
+    },
+    {
+      "team_id": "TM2024",
+      "payments": 352,
+      "disputes": 2,
+      "wins": 1,
+      "losses": 0,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 90
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 110
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 113
+        }
+      ]
+    },
+    {
+      "team_id": "TM2025",
+      "payments": 847,
+      "disputes": 3,
+      "wins": 1,
+      "losses": 2,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 1736.26,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 375
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 531
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 512
+        }
+      ]
+    },
+    {
+      "team_id": "TM2026",
+      "payments": 1637,
+      "disputes": 8,
+      "wins": 4,
+      "losses": 4,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 25562.5,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 477
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 623
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1689
+        }
+      ]
+    },
+    {
+      "team_id": "TM2027",
+      "payments": 107,
+      "disputes": 0,
+      "wins": 0,
+      "losses": 0,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 64
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 85
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 116
+        }
+      ]
+    },
+    {
+      "team_id": "TM2028",
+      "payments": 1141,
+      "disputes": 12,
+      "wins": 3,
+      "losses": 7,
+      "open": 0,
+      "withdrawn": 2,
+      "usd_lost": 1471.62,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 663
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 923
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 841
+        }
+      ]
+    },
+    {
+      "team_id": "TM2029",
+      "payments": 1710,
+      "disputes": 11,
+      "wins": 8,
+      "losses": 3,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 5615.7,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 754
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1086
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1314
+        }
+      ]
+    },
+    {
+      "team_id": "TM2030",
+      "payments": 1969,
+      "disputes": 4,
+      "wins": 3,
+      "losses": 1,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 204.57,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 234
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 313
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 2056
+        }
+      ]
+    },
+    {
+      "team_id": "TM2031",
+      "payments": 960,
+      "disputes": 12,
+      "wins": 4,
+      "losses": 8,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 1864.32,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 679
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 861
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 996
+        }
+      ]
+    },
+    {
+      "team_id": "TM2032",
+      "payments": 416,
+      "disputes": 4,
+      "wins": 1,
+      "losses": 3,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 1615.98,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 202
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 334
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 239
+        }
+      ]
+    },
+    {
+      "team_id": "TM2033",
+      "payments": 696,
+      "disputes": 8,
+      "wins": 4,
+      "losses": 4,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 15881.75,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 345
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 440
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 719
+        }
+      ]
+    },
+    {
+      "team_id": "TM2034",
+      "payments": 728,
+      "disputes": 4,
+      "wins": 0,
+      "losses": 3,
+      "open": 0,
+      "withdrawn": 1,
+      "usd_lost": 1221.38,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 355
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 538
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 758
+        }
+      ]
+    },
+    {
+      "team_id": "TM2035",
+      "payments": 1952,
+      "disputes": 10,
+      "wins": 1,
+      "losses": 6,
+      "open": 2,
+      "withdrawn": 1,
+      "usd_lost": 8634.84,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 999
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1526
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 2041
+        }
+      ]
+    },
+    {
+      "team_id": "TM2036",
+      "payments": 2125,
+      "disputes": 34,
+      "wins": 7,
+      "losses": 24,
+      "open": 3,
+      "withdrawn": 0,
+      "usd_lost": 46181.22,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 1503
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1931
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 2224
+        }
+      ]
+    },
+    {
+      "team_id": "TM2037",
+      "payments": 289,
+      "disputes": 0,
+      "wins": 0,
+      "losses": 0,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 31
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 26
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 50
+        }
+      ]
+    },
+    {
+      "team_id": "TM2038",
+      "payments": 821,
+      "disputes": 5,
+      "wins": 2,
+      "losses": 2,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 427.7,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 398
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 611
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 637
+        }
+      ]
+    },
+    {
+      "team_id": "TM2039",
+      "payments": 417,
+      "disputes": 5,
+      "wins": 1,
+      "losses": 4,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 4705.75,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 286
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 377
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 437
+        }
+      ]
+    },
+    {
+      "team_id": "TM2040",
+      "payments": 361,
+      "disputes": 5,
+      "wins": 3,
+      "losses": 2,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 1413.19,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 113
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 192
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 274
+        }
+      ]
+    },
+    {
+      "team_id": "TM2041",
+      "payments": 1657,
+      "disputes": 18,
+      "wins": 6,
+      "losses": 9,
+      "open": 1,
+      "withdrawn": 2,
+      "usd_lost": 11459.79,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 968
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1343
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1736
+        }
+      ]
+    },
+    {
+      "team_id": "TM2042",
+      "payments": 1011,
+      "disputes": 7,
+      "wins": 0,
+      "losses": 5,
+      "open": 1,
+      "withdrawn": 1,
+      "usd_lost": 1309.47,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 552
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 815
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1046
+        }
+      ]
+    },
+    {
+      "team_id": "TM2043",
+      "payments": 952,
+      "disputes": 11,
+      "wins": 2,
+      "losses": 9,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 27297.11,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 481
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 675
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 747
+        }
+      ]
+    },
+    {
+      "team_id": "TM2044",
+      "payments": 307,
+      "disputes": 1,
+      "wins": 0,
+      "losses": 1,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 2203.87,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 152
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 197
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 327
+        }
+      ]
+    },
+    {
+      "team_id": "TM2045",
+      "payments": 1033,
+      "disputes": 12,
+      "wins": 2,
+      "losses": 10,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 5883.26,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 678
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 924
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 740
+        }
+      ]
+    },
+    {
+      "team_id": "TM2046",
+      "payments": 1163,
+      "disputes": 3,
+      "wins": 0,
+      "losses": 3,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 13816.14,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 425
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 628
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 934
+        }
+      ]
+    },
+    {
+      "team_id": "TM2047",
+      "payments": 2140,
+      "disputes": 31,
+      "wins": 3,
+      "losses": 23,
+      "open": 4,
+      "withdrawn": 1,
+      "usd_lost": 15000.21,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 1682
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 2076
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 2220
+        }
+      ]
+    },
+    {
+      "team_id": "TM2048",
+      "payments": 257,
+      "disputes": 1,
+      "wins": 0,
+      "losses": 0,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 87
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 119
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 33
+        }
+      ]
+    },
+    {
+      "team_id": "TM2049",
+      "payments": 538,
+      "disputes": 2,
+      "wins": 1,
+      "losses": 1,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 296.29,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 295
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 421
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 556
+        }
+      ]
+    },
+    {
+      "team_id": "TM2050",
+      "payments": 1244,
+      "disputes": 9,
+      "wins": 4,
+      "losses": 3,
+      "open": 2,
+      "withdrawn": 0,
+      "usd_lost": 2252.02,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 625
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 890
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 885
+        }
+      ]
+    },
+    {
+      "team_id": "TM2051",
+      "payments": 271,
+      "disputes": 2,
+      "wins": 1,
+      "losses": 1,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 2342.27,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 195
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 249
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 173
+        }
+      ]
+    },
+    {
+      "team_id": "TM2052",
+      "payments": 1092,
+      "disputes": 9,
+      "wins": 1,
+      "losses": 3,
+      "open": 5,
+      "withdrawn": 0,
+      "usd_lost": 1046.34,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 493
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 741
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1149
+        }
+      ]
+    },
+    {
+      "team_id": "TM2053",
+      "payments": 2797,
+      "disputes": 24,
+      "wins": 7,
+      "losses": 12,
+      "open": 2,
+      "withdrawn": 3,
+      "usd_lost": 3064.18,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 1746
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 2443
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1991
+        }
+      ]
+    },
+    {
+      "team_id": "TM2054",
+      "payments": 1546,
+      "disputes": 3,
+      "wins": 1,
+      "losses": 1,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 265.33,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 234
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 356
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1164
+        }
+      ]
+    },
+    {
+      "team_id": "TM2055",
+      "payments": 1139,
+      "disputes": 3,
+      "wins": 0,
+      "losses": 1,
+      "open": 2,
+      "withdrawn": 0,
+      "usd_lost": 199.94,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 336
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 506
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1200
+        }
+      ]
+    },
+    {
+      "team_id": "TM2056",
+      "payments": 2320,
+      "disputes": 8,
+      "wins": 4,
+      "losses": 3,
+      "open": 0,
+      "withdrawn": 1,
+      "usd_lost": 1722.53,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 601
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 953
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1737
+        }
+      ]
+    },
+    {
+      "team_id": "TM2057",
+      "payments": 1075,
+      "disputes": 11,
+      "wins": 1,
+      "losses": 8,
+      "open": 1,
+      "withdrawn": 1,
+      "usd_lost": 45767.19,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 866
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1037
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1119
+        }
+      ]
+    },
+    {
+      "team_id": "TM2058",
+      "payments": 1077,
+      "disputes": 8,
+      "wins": 3,
+      "losses": 4,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 21775.16,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 576
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 802
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 824
+        }
+      ]
+    },
+    {
+      "team_id": "TM2059",
+      "payments": 435,
+      "disputes": 6,
+      "wins": 1,
+      "losses": 2,
+      "open": 3,
+      "withdrawn": 0,
+      "usd_lost": 2300.88,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 298
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 359
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 56
+        }
+      ]
+    },
+    {
+      "team_id": "TM2060",
+      "payments": 89,
+      "disputes": 1,
+      "wins": 1,
+      "losses": 0,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 10
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 10
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "team_id": "TM2061",
+      "payments": 396,
+      "disputes": 3,
+      "wins": 0,
+      "losses": 2,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 630.93,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 128
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 200
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 412
+        }
+      ]
+    },
+    {
+      "team_id": "TM2062",
+      "payments": 94,
+      "disputes": 1,
+      "wins": 0,
+      "losses": 0,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 61
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 79
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "team_id": "TM2063",
+      "payments": 127,
+      "disputes": 0,
+      "wins": 0,
+      "losses": 0,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 65
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 86
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 135
+        }
+      ]
+    },
+    {
+      "team_id": "TM2064",
+      "payments": 1550,
+      "disputes": 13,
+      "wins": 6,
+      "losses": 6,
+      "open": 0,
+      "withdrawn": 1,
+      "usd_lost": 3667.57,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 596
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 917
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1098
+        }
+      ]
+    },
+    {
+      "team_id": "TM2065",
+      "payments": 834,
+      "disputes": 5,
+      "wins": 1,
+      "losses": 3,
+      "open": 0,
+      "withdrawn": 1,
+      "usd_lost": 834.41,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 422
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 648
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 579
+        }
+      ]
+    },
+    {
+      "team_id": "TM2066",
+      "payments": 973,
+      "disputes": 11,
+      "wins": 2,
+      "losses": 7,
+      "open": 1,
+      "withdrawn": 1,
+      "usd_lost": 4824.42,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 675
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 862
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 656
+        }
+      ]
+    },
+    {
+      "team_id": "TM2067",
+      "payments": 815,
+      "disputes": 6,
+      "wins": 1,
+      "losses": 5,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 1501.39,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 276
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 451
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 577
+        }
+      ]
+    },
+    {
+      "team_id": "TM2068",
+      "payments": 927,
+      "disputes": 1,
+      "wins": 1,
+      "losses": 0,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 225
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 370
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 645
+        }
+      ]
+    },
+    {
+      "team_id": "TM2069",
+      "payments": 183,
+      "disputes": 3,
+      "wins": 0,
+      "losses": 2,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 4932.74,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 117
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 149
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 189
+        }
+      ]
+    },
+    {
+      "team_id": "TM2070",
+      "payments": 369,
+      "disputes": 0,
+      "wins": 0,
+      "losses": 0,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 183
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 270
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 380
+        }
+      ]
+    },
+    {
+      "team_id": "TM2071",
+      "payments": 868,
+      "disputes": 4,
+      "wins": 0,
+      "losses": 4,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 2087.69,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 505
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 720
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 628
+        }
+      ]
+    },
+    {
+      "team_id": "TM2072",
+      "payments": 1085,
+      "disputes": 6,
+      "wins": 2,
+      "losses": 4,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 1369.52,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 539
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 832
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1129
+        }
+      ]
+    },
+    {
+      "team_id": "TM2073",
+      "payments": 742,
+      "disputes": 18,
+      "wins": 6,
+      "losses": 9,
+      "open": 1,
+      "withdrawn": 2,
+      "usd_lost": 4452.92,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 518
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 710
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 503
+        }
+      ]
+    },
+    {
+      "team_id": "TM2074",
+      "payments": 149,
+      "disputes": 1,
+      "wins": 0,
+      "losses": 0,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 67
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 108
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 159
+        }
+      ]
+    },
+    {
+      "team_id": "TM2075",
+      "payments": 716,
+      "disputes": 2,
+      "wins": 1,
+      "losses": 1,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 157.56,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 161
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 305
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 544
+        }
+      ]
+    },
+    {
+      "team_id": "TM2076",
+      "payments": 1596,
+      "disputes": 18,
+      "wins": 5,
+      "losses": 11,
+      "open": 2,
+      "withdrawn": 0,
+      "usd_lost": 7539.92,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 1099
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1484
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 868
+        }
+      ]
+    },
+    {
+      "team_id": "TM2077",
+      "payments": 972,
+      "disputes": 3,
+      "wins": 1,
+      "losses": 2,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 561.61,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 449
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 622
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 655
+        }
+      ]
+    },
+    {
+      "team_id": "TM2078",
+      "payments": 818,
+      "disputes": 7,
+      "wins": 0,
+      "losses": 3,
+      "open": 3,
+      "withdrawn": 1,
+      "usd_lost": 1309.81,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 571
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 755
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 858
+        }
+      ]
+    },
+    {
+      "team_id": "TM2079",
+      "payments": 366,
+      "disputes": 5,
+      "wins": 0,
+      "losses": 5,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 1400.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 272
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 351
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 376
+        }
+      ]
+    },
+    {
+      "team_id": "TM2080",
+      "payments": 1166,
+      "disputes": 3,
+      "wins": 2,
+      "losses": 1,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 352.33,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 450
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 701
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1221
+        }
+      ]
+    },
+    {
+      "team_id": "TM2081",
+      "payments": 1242,
+      "disputes": 3,
+      "wins": 3,
+      "losses": 0,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 212
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 307
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 931
+        }
+      ]
+    },
+    {
+      "team_id": "TM2082",
+      "payments": 830,
+      "disputes": 4,
+      "wins": 0,
+      "losses": 1,
+      "open": 1,
+      "withdrawn": 2,
+      "usd_lost": 1360.58,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 434
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 605
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 851
+        }
+      ]
+    },
+    {
+      "team_id": "TM2083",
+      "payments": 1920,
+      "disputes": 14,
+      "wins": 1,
+      "losses": 10,
+      "open": 2,
+      "withdrawn": 1,
+      "usd_lost": 10557.43,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 1117
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1560
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1999
+        }
+      ]
+    },
+    {
+      "team_id": "TM2084",
+      "payments": 712,
+      "disputes": 1,
+      "wins": 1,
+      "losses": 0,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 182
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 249
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 521
+        }
+      ]
+    },
+    {
+      "team_id": "TM2085",
+      "payments": 1047,
+      "disputes": 6,
+      "wins": 3,
+      "losses": 3,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 5638.67,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 365
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 601
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 754
+        }
+      ]
+    },
+    {
+      "team_id": "TM2086",
+      "payments": 875,
+      "disputes": 6,
+      "wins": 4,
+      "losses": 1,
+      "open": 0,
+      "withdrawn": 1,
+      "usd_lost": 217.13,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 168
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 234
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 599
+        }
+      ]
+    },
+    {
+      "team_id": "TM2087",
+      "payments": 1095,
+      "disputes": 8,
+      "wins": 3,
+      "losses": 5,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 3891.26,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 667
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 875
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 753
+        }
+      ]
+    },
+    {
+      "team_id": "TM2088",
+      "payments": 2081,
+      "disputes": 11,
+      "wins": 2,
+      "losses": 5,
+      "open": 2,
+      "withdrawn": 2,
+      "usd_lost": 4361.45,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 919
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1428
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 2165
+        }
+      ]
+    },
+    {
+      "team_id": "TM2089",
+      "payments": 2373,
+      "disputes": 14,
+      "wins": 7,
+      "losses": 4,
+      "open": 2,
+      "withdrawn": 1,
+      "usd_lost": 6697.45,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 1185
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1690
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1599
+        }
+      ]
+    },
+    {
+      "team_id": "TM2090",
+      "payments": 1331,
+      "disputes": 9,
+      "wins": 0,
+      "losses": 6,
+      "open": 1,
+      "withdrawn": 2,
+      "usd_lost": 15784.22,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 705
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 995
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1393
+        }
+      ]
+    },
+    {
+      "team_id": "TM2091",
+      "payments": 508,
+      "disputes": 8,
+      "wins": 2,
+      "losses": 5,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 2450.57,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 419
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 497
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 525
+        }
+      ]
+    },
+    {
+      "team_id": "TM2092",
+      "payments": 2317,
+      "disputes": 7,
+      "wins": 4,
+      "losses": 2,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 684.18,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 598
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 985
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1723
+        }
+      ]
+    },
+    {
+      "team_id": "TM2093",
+      "payments": 3060,
+      "disputes": 19,
+      "wins": 6,
+      "losses": 10,
+      "open": 3,
+      "withdrawn": 0,
+      "usd_lost": 14682.67,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 1011
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1599
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 2314
+        }
+      ]
+    },
+    {
+      "team_id": "TM2094",
+      "payments": 984,
+      "disputes": 5,
+      "wins": 2,
+      "losses": 0,
+      "open": 2,
+      "withdrawn": 1,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 495
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 741
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 744
+        }
+      ]
+    },
+    {
+      "team_id": "TM2095",
+      "payments": 590,
+      "disputes": 3,
+      "wins": 0,
+      "losses": 0,
+      "open": 3,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 227
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 347
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 626
+        }
+      ]
+    },
+    {
+      "team_id": "TM2096",
+      "payments": 1099,
+      "disputes": 4,
+      "wins": 1,
+      "losses": 3,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 1509.71,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 274
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 376
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 833
+        }
+      ]
+    },
+    {
+      "team_id": "TM2097",
+      "payments": 1940,
+      "disputes": 35,
+      "wins": 14,
+      "losses": 18,
+      "open": 3,
+      "withdrawn": 0,
+      "usd_lost": 61314.16,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 1469
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1815
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 2018
+        }
+      ]
+    },
+    {
+      "team_id": "TM2098",
+      "payments": 633,
+      "disputes": 6,
+      "wins": 0,
+      "losses": 4,
+      "open": 2,
+      "withdrawn": 0,
+      "usd_lost": 2098.27,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 325
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 480
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 656
+        }
+      ]
+    },
+    {
+      "team_id": "TM2099",
+      "payments": 555,
+      "disputes": 4,
+      "wins": 1,
+      "losses": 3,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 523.8,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 289
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 438
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 420
+        }
+      ]
+    },
+    {
+      "team_id": "TM2100",
+      "payments": 440,
+      "disputes": 0,
+      "wins": 0,
+      "losses": 0,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 141
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 193
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 462
+        }
+      ]
+    },
+    {
+      "team_id": "TM2101",
+      "payments": 662,
+      "disputes": 4,
+      "wins": 3,
+      "losses": 1,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 203.26,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 170
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 284
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 530
+        }
+      ]
+    },
+    {
+      "team_id": "TM2102",
+      "payments": 831,
+      "disputes": 4,
+      "wins": 1,
+      "losses": 2,
+      "open": 0,
+      "withdrawn": 1,
+      "usd_lost": 2252.47,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 345
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 511
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 592
+        }
+      ]
+    },
+    {
+      "team_id": "TM2103",
+      "payments": 1130,
+      "disputes": 6,
+      "wins": 1,
+      "losses": 5,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 3998.34,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 351
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 501
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 791
+        }
+      ]
+    },
+    {
+      "team_id": "TM2104",
+      "payments": 732,
+      "disputes": 5,
+      "wins": 1,
+      "losses": 4,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 760.61,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 368
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 546
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 499
+        }
+      ]
+    },
+    {
+      "team_id": "TM2105",
+      "payments": 770,
+      "disputes": 7,
+      "wins": 2,
+      "losses": 3,
+      "open": 2,
+      "withdrawn": 0,
+      "usd_lost": 1561.01,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 420
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 613
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 800
+        }
+      ]
+    },
+    {
+      "team_id": "TM2106",
+      "payments": 788,
+      "disputes": 13,
+      "wins": 4,
+      "losses": 8,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 1974.89,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 511
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 698
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 815
+        }
+      ]
+    },
+    {
+      "team_id": "TM2107",
+      "payments": 389,
+      "disputes": 3,
+      "wins": 2,
+      "losses": 1,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 362.41,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 129
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 180
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 413
+        }
+      ]
+    },
+    {
+      "team_id": "TM2108",
+      "payments": 3281,
+      "disputes": 18,
+      "wins": 7,
+      "losses": 7,
+      "open": 3,
+      "withdrawn": 1,
+      "usd_lost": 1791.79,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 1574
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 2341
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 2409
+        }
+      ]
+    },
+    {
+      "team_id": "TM2109",
+      "payments": 765,
+      "disputes": 2,
+      "wins": 1,
+      "losses": 1,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 100.52,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 209
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 314
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 553
+        }
+      ]
+    },
+    {
+      "team_id": "TM2110",
+      "payments": 390,
+      "disputes": 1,
+      "wins": 0,
+      "losses": 1,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 395.98,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 188
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 259
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 408
+        }
+      ]
+    },
+    {
+      "team_id": "TM2111",
+      "payments": 747,
+      "disputes": 1,
+      "wins": 1,
+      "losses": 0,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 202
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 297
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 769
+        }
+      ]
+    },
+    {
+      "team_id": "TM2112",
+      "payments": 1265,
+      "disputes": 13,
+      "wins": 1,
+      "losses": 10,
+      "open": 2,
+      "withdrawn": 0,
+      "usd_lost": 38868.46,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 579
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 803
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1313
+        }
+      ]
+    },
+    {
+      "team_id": "TM2113",
+      "payments": 2439,
+      "disputes": 17,
+      "wins": 8,
+      "losses": 8,
+      "open": 0,
+      "withdrawn": 1,
+      "usd_lost": 16079.14,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 1164
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1769
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 2526
+        }
+      ]
+    },
+    {
+      "team_id": "TM2114",
+      "payments": 891,
+      "disputes": 2,
+      "wins": 2,
+      "losses": 0,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 241
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 337
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 925
+        }
+      ]
+    },
+    {
+      "team_id": "TM2115",
+      "payments": 986,
+      "disputes": 11,
+      "wins": 3,
+      "losses": 8,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 3929.33,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 696
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 898
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1024
+        }
+      ]
+    },
+    {
+      "team_id": "TM2116",
+      "payments": 1335,
+      "disputes": 9,
+      "wins": 1,
+      "losses": 6,
+      "open": 1,
+      "withdrawn": 1,
+      "usd_lost": 4050.84,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 650
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 957
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1390
+        }
+      ]
+    },
+    {
+      "team_id": "TM2117",
+      "payments": 2801,
+      "disputes": 17,
+      "wins": 2,
+      "losses": 12,
+      "open": 2,
+      "withdrawn": 1,
+      "usd_lost": 3505.83,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 1313
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 2076
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 2151
+        }
+      ]
+    },
+    {
+      "team_id": "TM2118",
+      "payments": 1039,
+      "disputes": 8,
+      "wins": 5,
+      "losses": 3,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 608.03,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 361
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 564
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1094
+        }
+      ]
+    },
+    {
+      "team_id": "TM2119",
+      "payments": 1361,
+      "disputes": 6,
+      "wins": 4,
+      "losses": 2,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 617.06,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 430
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 662
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1416
+        }
+      ]
+    },
+    {
+      "team_id": "TM2120",
+      "payments": 1978,
+      "disputes": 24,
+      "wins": 7,
+      "losses": 11,
+      "open": 4,
+      "withdrawn": 2,
+      "usd_lost": 11840.44,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 863
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1316
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 2062
+        }
+      ]
+    },
+    {
+      "team_id": "TM2121",
+      "payments": 1044,
+      "disputes": 4,
+      "wins": 0,
+      "losses": 1,
+      "open": 2,
+      "withdrawn": 1,
+      "usd_lost": 886.57,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 385
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 609
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 735
+        }
+      ]
+    },
+    {
+      "team_id": "TM2122",
+      "payments": 854,
+      "disputes": 1,
+      "wins": 1,
+      "losses": 0,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 184
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 251
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 663
+        }
+      ]
+    },
+    {
+      "team_id": "TM2123",
+      "payments": 1001,
+      "disputes": 5,
+      "wins": 4,
+      "losses": 0,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 308
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 417
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 700
+        }
+      ]
+    },
+    {
+      "team_id": "TM2124",
+      "payments": 1847,
+      "disputes": 8,
+      "wins": 5,
+      "losses": 2,
+      "open": 0,
+      "withdrawn": 1,
+      "usd_lost": 243.06,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 365
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 647
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1916
+        }
+      ]
+    },
+    {
+      "team_id": "TM2125",
+      "payments": 2616,
+      "disputes": 11,
+      "wins": 3,
+      "losses": 5,
+      "open": 2,
+      "withdrawn": 1,
+      "usd_lost": 5583.26,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 654
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1010
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1715
+        }
+      ]
+    },
+    {
+      "team_id": "TM2126",
+      "payments": 1375,
+      "disputes": 8,
+      "wins": 3,
+      "losses": 5,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 738.67,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 636
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 911
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 983
+        }
+      ]
+    },
+    {
+      "team_id": "TM2127",
+      "payments": 744,
+      "disputes": 5,
+      "wins": 0,
+      "losses": 4,
+      "open": 0,
+      "withdrawn": 1,
+      "usd_lost": 2719.75,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 482
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 642
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 775
+        }
+      ]
+    },
+    {
+      "team_id": "TM2128",
+      "payments": 875,
+      "disputes": 6,
+      "wins": 0,
+      "losses": 6,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 3723.92,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 418
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 628
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 903
+        }
+      ]
+    },
+    {
+      "team_id": "TM2129",
+      "payments": 300,
+      "disputes": 1,
+      "wins": 0,
+      "losses": 0,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 193
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 270
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 318
+        }
+      ]
+    },
+    {
+      "team_id": "TM2130",
+      "payments": 324,
+      "disputes": 1,
+      "wins": 0,
+      "losses": 0,
+      "open": 0,
+      "withdrawn": 1,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 161
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 231
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 230
+        }
+      ]
+    },
+    {
+      "team_id": "TM2131",
+      "payments": 468,
+      "disputes": 2,
+      "wins": 1,
+      "losses": 0,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 139
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 214
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 487
+        }
+      ]
+    },
+    {
+      "team_id": "TM2132",
+      "payments": 1144,
+      "disputes": 14,
+      "wins": 3,
+      "losses": 8,
+      "open": 1,
+      "withdrawn": 2,
+      "usd_lost": 2147.73,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 820
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1070
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 870
+        }
+      ]
+    },
+    {
+      "team_id": "TM2133",
+      "payments": 1453,
+      "disputes": 11,
+      "wins": 2,
+      "losses": 7,
+      "open": 2,
+      "withdrawn": 0,
+      "usd_lost": 10652.38,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 1069
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1363
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1526
+        }
+      ]
+    },
+    {
+      "team_id": "TM2134",
+      "payments": 694,
+      "disputes": 3,
+      "wins": 0,
+      "losses": 0,
+      "open": 1,
+      "withdrawn": 2,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 356
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 510
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 710
+        }
+      ]
+    },
+    {
+      "team_id": "TM2135",
+      "payments": 1167,
+      "disputes": 7,
+      "wins": 1,
+      "losses": 4,
+      "open": 1,
+      "withdrawn": 1,
+      "usd_lost": 1381.8,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 825
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1108
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1220
+        }
+      ]
+    },
+    {
+      "team_id": "TM2136",
+      "payments": 415,
+      "disputes": 1,
+      "wins": 0,
+      "losses": 0,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 176
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 257
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 235
+        }
+      ]
+    },
+    {
+      "team_id": "TM2137",
+      "payments": 503,
+      "disputes": 5,
+      "wins": 0,
+      "losses": 3,
+      "open": 2,
+      "withdrawn": 0,
+      "usd_lost": 1489.8,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 224
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 356
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 331
+        }
+      ]
+    },
+    {
+      "team_id": "TM2138",
+      "payments": 1263,
+      "disputes": 17,
+      "wins": 3,
+      "losses": 13,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 14536.32,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 904
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1162
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1310
+        }
+      ]
+    },
+    {
+      "team_id": "TM2139",
+      "payments": 208,
+      "disputes": 2,
+      "wins": 0,
+      "losses": 2,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 1713.74,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 123
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 191
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 221
+        }
+      ]
+    },
+    {
+      "team_id": "TM2140",
+      "payments": 966,
+      "disputes": 10,
+      "wins": 6,
+      "losses": 2,
+      "open": 2,
+      "withdrawn": 0,
+      "usd_lost": 623.38,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 398
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 636
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1013
+        }
+      ]
+    },
+    {
+      "team_id": "TM2141",
+      "payments": 682,
+      "disputes": 12,
+      "wins": 0,
+      "losses": 10,
+      "open": 1,
+      "withdrawn": 1,
+      "usd_lost": 4176.91,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 544
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 659
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 702
+        }
+      ]
+    },
+    {
+      "team_id": "TM2142",
+      "payments": 2184,
+      "disputes": 14,
+      "wins": 3,
+      "losses": 9,
+      "open": 1,
+      "withdrawn": 1,
+      "usd_lost": 12555.58,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 929
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1447
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1554
+        }
+      ]
+    },
+    {
+      "team_id": "TM2143",
+      "payments": 920,
+      "disputes": 5,
+      "wins": 1,
+      "losses": 2,
+      "open": 1,
+      "withdrawn": 1,
+      "usd_lost": 1793.38,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 302
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 448
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 734
+        }
+      ]
+    },
+    {
+      "team_id": "TM2144",
+      "payments": 634,
+      "disputes": 0,
+      "wins": 0,
+      "losses": 0,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 124
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 155
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 463
+        }
+      ]
+    },
+    {
+      "team_id": "TM2145",
+      "payments": 1434,
+      "disputes": 7,
+      "wins": 1,
+      "losses": 6,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 2047.7,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 771
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1158
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1005
+        }
+      ]
+    },
+    {
+      "team_id": "TM2146",
+      "payments": 904,
+      "disputes": 4,
+      "wins": 1,
+      "losses": 0,
+      "open": 1,
+      "withdrawn": 2,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 240
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 385
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 942
+        }
+      ]
+    },
+    {
+      "team_id": "TM2147",
+      "payments": 1241,
+      "disputes": 11,
+      "wins": 4,
+      "losses": 6,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 5491.45,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 601
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 899
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1293
+        }
+      ]
+    },
+    {
+      "team_id": "TM2148",
+      "payments": 1172,
+      "disputes": 15,
+      "wins": 5,
+      "losses": 7,
+      "open": 2,
+      "withdrawn": 1,
+      "usd_lost": 8831.66,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 672
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 929
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 867
+        }
+      ]
+    },
+    {
+      "team_id": "TM2149",
+      "payments": 1699,
+      "disputes": 14,
+      "wins": 2,
+      "losses": 10,
+      "open": 1,
+      "withdrawn": 1,
+      "usd_lost": 8506.78,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 1080
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1491
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1769
+        }
+      ]
+    },
+    {
+      "team_id": "TM2150",
+      "payments": 994,
+      "disputes": 8,
+      "wins": 1,
+      "losses": 6,
+      "open": 0,
+      "withdrawn": 1,
+      "usd_lost": 7502.67,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 466
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 707
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1034
+        }
+      ]
+    },
+    {
+      "team_id": "TM2151",
+      "payments": 1423,
+      "disputes": 4,
+      "wins": 2,
+      "losses": 2,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 2484.87,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 728
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1009
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1076
+        }
+      ]
+    },
+    {
+      "team_id": "TM2152",
+      "payments": 2750,
+      "disputes": 24,
+      "wins": 5,
+      "losses": 11,
+      "open": 2,
+      "withdrawn": 6,
+      "usd_lost": 6132.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 2102
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 2628
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 2874
+        }
+      ]
+    },
+    {
+      "team_id": "TM2153",
+      "payments": 579,
+      "disputes": 1,
+      "wins": 0,
+      "losses": 1,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 867.29,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 85
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 115
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 607
+        }
+      ]
+    },
+    {
+      "team_id": "TM2154",
+      "payments": 1149,
+      "disputes": 13,
+      "wins": 4,
+      "losses": 8,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 3801.69,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 322
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 518
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1203
+        }
+      ]
+    },
+    {
+      "team_id": "TM2155",
+      "payments": 2312,
+      "disputes": 14,
+      "wins": 1,
+      "losses": 10,
+      "open": 1,
+      "withdrawn": 2,
+      "usd_lost": 3421.9,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 1376
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 2041
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 2423
+        }
+      ]
+    },
+    {
+      "team_id": "TM2156",
+      "payments": 1502,
+      "disputes": 12,
+      "wins": 4,
+      "losses": 4,
+      "open": 2,
+      "withdrawn": 2,
+      "usd_lost": 936.98,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 1181
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1466
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1560
+        }
+      ]
+    },
+    {
+      "team_id": "TM2157",
+      "payments": 1359,
+      "disputes": 8,
+      "wins": 2,
+      "losses": 5,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 2275.12,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 731
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1034
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 993
+        }
+      ]
+    },
+    {
+      "team_id": "TM2158",
+      "payments": 2474,
+      "disputes": 16,
+      "wins": 4,
+      "losses": 9,
+      "open": 1,
+      "withdrawn": 2,
+      "usd_lost": 14296.6,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 1458
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1927
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 2584
+        }
+      ]
+    },
+    {
+      "team_id": "TM2159",
+      "payments": 637,
+      "disputes": 2,
+      "wins": 1,
+      "losses": 1,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 264.65,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 158
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 235
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 430
+        }
+      ]
+    },
+    {
+      "team_id": "TM2160",
+      "payments": 1098,
+      "disputes": 5,
+      "wins": 1,
+      "losses": 3,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 584.74,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 488
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 725
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1134
+        }
+      ]
+    },
+    {
+      "team_id": "TM2161",
+      "payments": 984,
+      "disputes": 19,
+      "wins": 8,
+      "losses": 11,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 10599.58,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 570
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 795
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1041
+        }
+      ]
+    },
+    {
+      "team_id": "TM2162",
+      "payments": 681,
+      "disputes": 13,
+      "wins": 3,
+      "losses": 9,
+      "open": 0,
+      "withdrawn": 1,
+      "usd_lost": 50291.82,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 465
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 588
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 711
+        }
+      ]
+    },
+    {
+      "team_id": "TM2163",
+      "payments": 401,
+      "disputes": 3,
+      "wins": 1,
+      "losses": 0,
+      "open": 2,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 180
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 241
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 428
+        }
+      ]
+    },
+    {
+      "team_id": "TM2164",
+      "payments": 4103,
+      "disputes": 46,
+      "wins": 11,
+      "losses": 29,
+      "open": 3,
+      "withdrawn": 3,
+      "usd_lost": 38191.74,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 2509
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 3415
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 4283
+        }
+      ]
+    },
+    {
+      "team_id": "TM2165",
+      "payments": 714,
+      "disputes": 4,
+      "wins": 1,
+      "losses": 2,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 961.9,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 225
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 335
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 383
+        }
+      ]
+    },
+    {
+      "team_id": "TM2166",
+      "payments": 2190,
+      "disputes": 8,
+      "wins": 4,
+      "losses": 3,
+      "open": 0,
+      "withdrawn": 1,
+      "usd_lost": 648.86,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 928
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1406
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1555
+        }
+      ]
+    },
+    {
+      "team_id": "TM2167",
+      "payments": 1287,
+      "disputes": 7,
+      "wins": 1,
+      "losses": 4,
+      "open": 2,
+      "withdrawn": 0,
+      "usd_lost": 962.34,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 777
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1084
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 988
+        }
+      ]
+    },
+    {
+      "team_id": "TM2168",
+      "payments": 444,
+      "disputes": 3,
+      "wins": 0,
+      "losses": 2,
+      "open": 0,
+      "withdrawn": 1,
+      "usd_lost": 343.3,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 234
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 329
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 460
+        }
+      ]
+    },
+    {
+      "team_id": "TM2169",
+      "payments": 1646,
+      "disputes": 16,
+      "wins": 3,
+      "losses": 11,
+      "open": 2,
+      "withdrawn": 0,
+      "usd_lost": 4810.38,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 906
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1318
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1705
+        }
+      ]
+    },
+    {
+      "team_id": "TM2170",
+      "payments": 189,
+      "disputes": 0,
+      "wins": 0,
+      "losses": 0,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 90
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 143
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 31
+        }
+      ]
+    },
+    {
+      "team_id": "TM2171",
+      "payments": 897,
+      "disputes": 12,
+      "wins": 0,
+      "losses": 9,
+      "open": 2,
+      "withdrawn": 1,
+      "usd_lost": 4394.63,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 739
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 914
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 950
+        }
+      ]
+    },
+    {
+      "team_id": "TM2172",
+      "payments": 1281,
+      "disputes": 8,
+      "wins": 2,
+      "losses": 4,
+      "open": 1,
+      "withdrawn": 1,
+      "usd_lost": 1445.88,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 762
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1067
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 786
+        }
+      ]
+    },
+    {
+      "team_id": "TM2173",
+      "payments": 541,
+      "disputes": 1,
+      "wins": 1,
+      "losses": 0,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 93
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 150
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 361
+        }
+      ]
+    },
+    {
+      "team_id": "TM2174",
+      "payments": 427,
+      "disputes": 2,
+      "wins": 0,
+      "losses": 2,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 412.3,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 116
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 187
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 327
+        }
+      ]
+    },
+    {
+      "team_id": "TM2175",
+      "payments": 1333,
+      "disputes": 5,
+      "wins": 1,
+      "losses": 2,
+      "open": 1,
+      "withdrawn": 1,
+      "usd_lost": 3208.69,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 169
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 219
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1400
+        }
+      ]
+    },
+    {
+      "team_id": "TM2176",
+      "payments": 1287,
+      "disputes": 10,
+      "wins": 3,
+      "losses": 5,
+      "open": 2,
+      "withdrawn": 0,
+      "usd_lost": 2476.83,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 647
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 939
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1358
+        }
+      ]
+    },
+    {
+      "team_id": "TM2177",
+      "payments": 661,
+      "disputes": 3,
+      "wins": 0,
+      "losses": 3,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 354.56,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 399
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 552
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 517
+        }
+      ]
+    },
+    {
+      "team_id": "TM2178",
+      "payments": 701,
+      "disputes": 3,
+      "wins": 1,
+      "losses": 1,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 3372.95,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 182
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 268
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 736
+        }
+      ]
+    },
+    {
+      "team_id": "TM2179",
+      "payments": 1686,
+      "disputes": 5,
+      "wins": 4,
+      "losses": 1,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 231.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 373
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 534
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1314
+        }
+      ]
+    },
+    {
+      "team_id": "TM2180",
+      "payments": 444,
+      "disputes": 2,
+      "wins": 1,
+      "losses": 1,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 271.77,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 174
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 242
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 457
+        }
+      ]
+    },
+    {
+      "team_id": "TM2181",
+      "payments": 654,
+      "disputes": 4,
+      "wins": 4,
+      "losses": 0,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 64
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 81
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 507
+        }
+      ]
+    },
+    {
+      "team_id": "TM2182",
+      "payments": 1448,
+      "disputes": 18,
+      "wins": 0,
+      "losses": 16,
+      "open": 1,
+      "withdrawn": 1,
+      "usd_lost": 15333.64,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 1165
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1403
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1509
+        }
+      ]
+    },
+    {
+      "team_id": "TM2183",
+      "payments": 1093,
+      "disputes": 2,
+      "wins": 0,
+      "losses": 1,
+      "open": 0,
+      "withdrawn": 1,
+      "usd_lost": 231.13,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 347
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 494
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 830
+        }
+      ]
+    },
+    {
+      "team_id": "TM2184",
+      "payments": 1464,
+      "disputes": 5,
+      "wins": 3,
+      "losses": 1,
+      "open": 0,
+      "withdrawn": 1,
+      "usd_lost": 207.03,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 440
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 621
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1529
+        }
+      ]
+    },
+    {
+      "team_id": "TM2185",
+      "payments": 513,
+      "disputes": 6,
+      "wins": 1,
+      "losses": 4,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 7838.42,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 361
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 472
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 529
+        }
+      ]
+    },
+    {
+      "team_id": "TM2186",
+      "payments": 915,
+      "disputes": 1,
+      "wins": 0,
+      "losses": 0,
+      "open": 0,
+      "withdrawn": 1,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 189
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 271
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 457
+        }
+      ]
+    },
+    {
+      "team_id": "TM2187",
+      "payments": 357,
+      "disputes": 1,
+      "wins": 0,
+      "losses": 1,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 3344.93,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 121
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 204
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 272
+        }
+      ]
+    },
+    {
+      "team_id": "TM2188",
+      "payments": 2432,
+      "disputes": 8,
+      "wins": 4,
+      "losses": 3,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 898.5,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 284
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 377
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1392
+        }
+      ]
+    },
+    {
+      "team_id": "TM2189",
+      "payments": 2100,
+      "disputes": 16,
+      "wins": 5,
+      "losses": 9,
+      "open": 1,
+      "withdrawn": 1,
+      "usd_lost": 22217.2,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 1222
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1690
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1524
+        }
+      ]
+    },
+    {
+      "team_id": "TM2190",
+      "payments": 961,
+      "disputes": 9,
+      "wins": 1,
+      "losses": 6,
+      "open": 1,
+      "withdrawn": 1,
+      "usd_lost": 2116.22,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 411
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 642
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 713
+        }
+      ]
+    },
+    {
+      "team_id": "TM2191",
+      "payments": 917,
+      "disputes": 7,
+      "wins": 1,
+      "losses": 6,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 2034.67,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 692
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 865
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 948
+        }
+      ]
+    },
+    {
+      "team_id": "TM2192",
+      "payments": 270,
+      "disputes": 2,
+      "wins": 2,
+      "losses": 0,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 58
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 98
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 72
+        }
+      ]
+    },
+    {
+      "team_id": "TM2193",
+      "payments": 1274,
+      "disputes": 9,
+      "wins": 2,
+      "losses": 6,
+      "open": 0,
+      "withdrawn": 1,
+      "usd_lost": 9370.02,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 673
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 974
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 985
+        }
+      ]
+    },
+    {
+      "team_id": "TM2194",
+      "payments": 1287,
+      "disputes": 2,
+      "wins": 1,
+      "losses": 1,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 122.3,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 306
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 483
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1002
+        }
+      ]
+    },
+    {
+      "team_id": "TM2195",
+      "payments": 1567,
+      "disputes": 33,
+      "wins": 2,
+      "losses": 27,
+      "open": 4,
+      "withdrawn": 0,
+      "usd_lost": 86452.7,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 1334
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1554
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 1635
+        }
+      ]
+    },
+    {
+      "team_id": "TM2196",
+      "payments": 1920,
+      "disputes": 17,
+      "wins": 5,
+      "losses": 8,
+      "open": 3,
+      "withdrawn": 1,
+      "usd_lost": 64054.5,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 1110
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 1551
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 2010
+        }
+      ]
+    },
+    {
+      "team_id": "TM2197",
+      "payments": 1055,
+      "disputes": 4,
+      "wins": 1,
+      "losses": 2,
+      "open": 1,
+      "withdrawn": 0,
+      "usd_lost": 2995.28,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 216
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 294
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 780
+        }
+      ]
+    },
+    {
+      "team_id": "TM2198",
+      "payments": 276,
+      "disputes": 3,
+      "wins": 0,
+      "losses": 1,
+      "open": 2,
+      "withdrawn": 0,
+      "usd_lost": 253.01,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 115
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 149
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 294
+        }
+      ]
+    },
+    {
+      "team_id": "TM2199",
+      "payments": 803,
+      "disputes": 8,
+      "wins": 0,
+      "losses": 8,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 26909.78,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 462
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 647
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 839
+        }
+      ]
+    },
+    {
+      "team_id": "TM2200",
+      "payments": 385,
+      "disputes": 2,
+      "wins": 2,
+      "losses": 0,
+      "open": 0,
+      "withdrawn": 0,
+      "usd_lost": 0.0,
+      "gaps": [
+        {
+          "label": "Missing service address",
+          "count": 66
+        },
+        {
+          "label": "Missing signed estimate",
+          "count": 93
+        },
+        {
+          "label": "Missing completion signature",
+          "count": 50
+        }
+      ]
+    }
+  ]
+}

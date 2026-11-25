@@ -1,0 +1,16 @@
+{
+  "high_min_score": 0.05064342338922833,
+  "medium_min_score": 0.01832146142537601,
+  "high_rows": 2183,
+  "medium_rows": 3273,
+  "scored_rows": 109119,
+  "rule": "High at or above high_min_score, otherwise medium at or above medium_min_score, otherwise low.",
+  "source": "Pooled out-of-fold predictions from the three-fold payment-risk layout.",
+  "fold_edges": [
+    0.4,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "final_training_rows": 181864
+}

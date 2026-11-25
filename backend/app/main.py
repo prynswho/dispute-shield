@@ -2,11 +2,14 @@
 
 import csv
 import io
+import os
+from pathlib import Path
 from uuid import uuid4
 from typing import Literal
 
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.responses import Response
+from fastapi.staticfiles import StaticFiles
 
 from .connectors import files
 from . import features, policies, scoring
@@ -139,3 +142,9 @@ def export_policies(mode: PolicyMode = "open_expected"):
     reports = score_or_error(policies.evaluate_policies, mode)
     rows = [row for policy in reports for row in policy["results"]]
     return csv_response(rows, WHATIF_EXPORT, "whatif_results.csv")
+
+
+# The production container serves the React build from the same origin as the API.
+frontend_dir = Path(os.environ.get("DISPUTE_FRONTEND_DIR", Path(__file__).resolve().parents[2] / "frontend" / "dist"))
+if frontend_dir.is_dir():
+    app.mount("/", StaticFiles(directory=frontend_dir, html=True), name="frontend")

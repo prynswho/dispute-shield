@@ -8,3 +8,15 @@ dist/
 !/data/.gitkeep
 /artifacts/*
 !/artifacts/.gitkeep
+!/artifacts/dispute_win.joblib
+!/artifacts/early_win.joblib
+!/artifacts/historical_summary.json
+!/artifacts/payment_risk/
+/artifacts/payment_risk/*
+!/artifacts/payment_risk/model.joblib
+!/artifacts/payment_risk/encoder.joblib
+!/artifacts/payment_risk/tiers.json
+.env
+.env.*
+.railway/*
+!.railway/railway.ts
