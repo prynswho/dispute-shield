@@ -1,5 +1,9 @@
 # Railway deployment
 
+Live app: https://dispute-shield-production-67817c10.up.railway.app
+
+Public repository: https://github.com/prynswho/dispute-shield
+
 The repository includes docs, the approach draft, aggregate experiment reports,
 and frozen inference artifacts. Raw source CSVs, upload sessions, credentials,
 virtual environments, and installed dependencies are excluded from Git.
@@ -35,6 +39,9 @@ before uploading anything to Railway. `.dockerignore` independently excludes
 those files from Docker builds. Runtime policy JSON and the aggregate portfolio
 summary are included because the application displays them.
 
+Deployment is manual from the allowlisted context. A GitHub push alone does not
+redeploy the app, so documentation and experiment updates do not trigger builds.
+
 Generate a public Railway domain for the service. Verify `/health`, the UI,
 synthetic uploads, both prediction exports, portfolio, and all policy modes.
 Verify an uploaded synthetic session survives a service restart. Real customer
@@ -44,3 +51,17 @@ The trial stops when its credit or time allowance runs out; this does not
 guarantee continuous hosting for the assignment period. The current app uses
 unguessable run IDs rather than user accounts; anyone with a run URL can read
 that session. Keep real uploads private and review usage in Railway.
+
+## Verification on 2026-11-26
+
+- Local Docker image built successfully, including the React production build.
+- 19 backend tests and 6 frontend tests passed using made-up test data.
+- Public health endpoint, UI, payment and dispute uploads, both prediction
+  exports, portfolio, and all three policy modes returned successful responses.
+- Synthetic risk and payment-win predictions matched the local Linux container
+  within absolute tolerance `1e-12`; dispute scoring also succeeded.
+- A synthetic upload session remained identical after restarting the Railway
+  service. Logs confirmed a fresh process and volume mount.
+- The runtime image contained no docs, experiments, or source dataset directory.
+- GitHub visibility was verified as public. Source CSVs and uploaded sessions
+  were excluded from both the repository and deployment upload.

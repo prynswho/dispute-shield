@@ -10,6 +10,7 @@ export default defineRailway(() => {
     healthcheck: "/health",
     healthcheckTimeout: 120,
     replicas: { "sfo": 1 },
+    networking: { serviceDomains: { "dispute-shield-production-67817c10.up.railway.app": {} } },
     volumeMounts: { "/data": uploads },
   });
 
