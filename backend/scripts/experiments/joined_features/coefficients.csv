@@ -1,0 +1,21 @@
+fold,model,feature,coefficient
+1,v1+A+B+C+D,response__merchant_responded,1.588767552347129
+1,v1+A+B+C+D,reason__job_type_troubleshooting,0.8031602247315911
+1,v1+A+B+C+D,evidence__card_present,0.7600828198674227
+1,v1+A+B+C+D,reason__job_type_roof replacement,-0.7580861600823626
+1,v1+A+B+C+D,evidence__customer_address,0.7498801544615316
+1,v1+A+B+C+D,reason__reason_duplicate,0.7043250408267574
+1,v1+A+B+C+D,reason__job_type_panel upgrade,-0.699192625147823
+1,v1+A+B+C+D,reason__job_type_leak repair,0.6563912041704973
+1,v1+A+B+C+D,reason__reason_fraud,-0.648287150092235
+1,v1+A+B+C+D,evidence__gps_checkin,0.6049744702402508
+2,v1+A+B+C+D,response__merchant_responded,1.8088012339942823
+2,v1+A+B+C+D,reason__reason_duplicate,1.0367282178098165
+2,v1+A+B+C+D,evidence__card_present,0.8912385741825831
+2,v1+A+B+C+D,reason__job_type_termite treatment,-0.8757993432056556
+2,v1+A+B+C+D,reason__job_type_safe install,0.8730455144203277
+2,v1+A+B+C+D,evidence__avs_cvv_match,0.7878719495447625
+2,v1+A+B+C+D,evidence__customer_address,0.7028791569502628
+2,v1+A+B+C+D,reason__job_type_troubleshooting,0.6905947465273471
+2,v1+A+B+C+D,reason__reason_fraud,-0.5654665648822699
+2,v1+A+B+C+D,reason__job_type_roof replacement,-0.5511817540762359

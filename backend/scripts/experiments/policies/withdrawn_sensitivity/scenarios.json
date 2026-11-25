@@ -1,0 +1,1465 @@
+[
+  {
+    "policy": "address_mandatory",
+    "name": "Mandatory customer address",
+    "description": "Require a customer address on every invoice.",
+    "period": "Months 1\u201322",
+    "source": "Aggregate SQL results supplied by the user in this chat. No source CSVs were read for this policy.",
+    "confidence": "Low",
+    "baseline": {
+      "disputes": 1592,
+      "disputes_lost": 1076.43,
+      "usd_lost": 1461157.14
+    },
+    "affected_invoices": 104886,
+    "expected_jobs_lost": 3506.28,
+    "excluded_payments": 52,
+    "gap_description": "The gap is the observed difference in resolved loss rates for invoices with and without addresses.",
+    "population_notes": [
+      "Jobs currently missing addresses (104,886) are affected by the evidence requirement.",
+      "Central expected jobs leaving ScanPay (3,506.28) use the 3% assumption across all jobs under $300.",
+      "Attrition varies over 2%, 3%, and 4%, independently of evidence benefit. All nine combinations determine the scenario bounds.",
+      "The evidence benefit applies after attrition, separately within each amount band.",
+      "Baseline shown uses predicted open outcomes. Each scenario has a baseline using the same outcome treatment as its counterfactual.",
+      "The range combines policy assumptions with all-won, predicted, and all-lost open outcomes."
+    ],
+    "scenarios": [
+      {
+        "key": "attrition_2_conservative_all_won",
+        "label": "Attrition only",
+        "gap_share": 0.0,
+        "change": {
+          "disputes": -13.1,
+          "disputes_lost": -8.06,
+          "usd_lost": -1720.08
+        },
+        "after": {
+          "disputes": 1578.9,
+          "disputes_lost": 952.79,
+          "usd_lost": 1300367.25
+        },
+        "attrition_change": {
+          "disputes": -13.1,
+          "disputes_lost": -8.06,
+          "usd_lost": -1720.08
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "title": "conservative",
+        "attrition_rate": 0.02,
+        "expected_jobs_lost": 2337.52,
+        "open_treatment": "all_won",
+        "open_treatment_label": "All open cases win",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 960.85,
+          "usd_lost": 1302087.33
+        }
+      },
+      {
+        "key": "attrition_2_conservative_predicted",
+        "label": "Attrition only",
+        "gap_share": 0.0,
+        "change": {
+          "disputes": -13.1,
+          "disputes_lost": -8.85,
+          "usd_lost": -1890.13
+        },
+        "after": {
+          "disputes": 1578.9,
+          "disputes_lost": 1067.58,
+          "usd_lost": 1459267.01
+        },
+        "attrition_change": {
+          "disputes": -13.1,
+          "disputes_lost": -8.85,
+          "usd_lost": -1890.13
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "title": "conservative",
+        "attrition_rate": 0.02,
+        "expected_jobs_lost": 2337.52,
+        "open_treatment": "predicted",
+        "open_treatment_label": "Probability weighted",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 1076.43,
+          "usd_lost": 1461157.14
+        }
+      },
+      {
+        "key": "attrition_2_conservative_all_lost",
+        "label": "Attrition only",
+        "gap_share": 0.0,
+        "change": {
+          "disputes": -13.1,
+          "disputes_lost": -9.34,
+          "usd_lost": -1993.76
+        },
+        "after": {
+          "disputes": 1578.9,
+          "disputes_lost": 1126.51,
+          "usd_lost": 1515696.56
+        },
+        "attrition_change": {
+          "disputes": -13.1,
+          "disputes_lost": -9.34,
+          "usd_lost": -1993.76
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "title": "conservative",
+        "attrition_rate": 0.02,
+        "expected_jobs_lost": 2337.52,
+        "open_treatment": "all_lost",
+        "open_treatment_label": "All open cases lose",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 1135.85,
+          "usd_lost": 1517690.32
+        }
+      },
+      {
+        "key": "attrition_2_central_all_won",
+        "label": "Half the observed gap",
+        "gap_share": 0.5,
+        "change": {
+          "disputes": -13.1,
+          "disputes_lost": -53.64,
+          "usd_lost": -76162.74
+        },
+        "after": {
+          "disputes": 1578.9,
+          "disputes_lost": 907.21,
+          "usd_lost": 1225924.59
+        },
+        "attrition_change": {
+          "disputes": -13.1,
+          "disputes_lost": -8.06,
+          "usd_lost": -1720.08
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": -45.58,
+          "usd_lost": -74442.66
+        },
+        "title": "central",
+        "attrition_rate": 0.02,
+        "expected_jobs_lost": 2337.52,
+        "open_treatment": "all_won",
+        "open_treatment_label": "All open cases win",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 960.85,
+          "usd_lost": 1302087.33
+        }
+      },
+      {
+        "key": "attrition_2_central_predicted",
+        "label": "Half the observed gap",
+        "gap_share": 0.5,
+        "change": {
+          "disputes": -13.1,
+          "disputes_lost": -59.94,
+          "usd_lost": -86480.68
+        },
+        "after": {
+          "disputes": 1578.9,
+          "disputes_lost": 1016.49,
+          "usd_lost": 1374676.46
+        },
+        "attrition_change": {
+          "disputes": -13.1,
+          "disputes_lost": -8.85,
+          "usd_lost": -1890.13
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": -51.09,
+          "usd_lost": -84590.55
+        },
+        "title": "central",
+        "attrition_rate": 0.02,
+        "expected_jobs_lost": 2337.52,
+        "open_treatment": "predicted",
+        "open_treatment_label": "Probability weighted",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 1076.43,
+          "usd_lost": 1461157.14
+        }
+      },
+      {
+        "key": "attrition_2_central_all_lost",
+        "label": "Half the observed gap",
+        "gap_share": 0.5,
+        "change": {
+          "disputes": -13.1,
+          "disputes_lost": -60.43,
+          "usd_lost": -86584.3
+        },
+        "after": {
+          "disputes": 1578.9,
+          "disputes_lost": 1075.42,
+          "usd_lost": 1431106.02
+        },
+        "attrition_change": {
+          "disputes": -13.1,
+          "disputes_lost": -9.34,
+          "usd_lost": -1993.76
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": -51.09,
+          "usd_lost": -84590.54
+        },
+        "title": "central",
+        "attrition_rate": 0.02,
+        "expected_jobs_lost": 2337.52,
+        "open_treatment": "all_lost",
+        "open_treatment_label": "All open cases lose",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 1135.85,
+          "usd_lost": 1517690.32
+        }
+      },
+      {
+        "key": "attrition_2_optimistic_all_won",
+        "label": "Full observed gap",
+        "gap_share": 1.0,
+        "change": {
+          "disputes": -13.1,
+          "disputes_lost": -99.23,
+          "usd_lost": -150605.4
+        },
+        "after": {
+          "disputes": 1578.9,
+          "disputes_lost": 861.62,
+          "usd_lost": 1151481.93
+        },
+        "attrition_change": {
+          "disputes": -13.1,
+          "disputes_lost": -8.06,
+          "usd_lost": -1720.08
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": -91.17,
+          "usd_lost": -148885.32
+        },
+        "title": "optimistic",
+        "attrition_rate": 0.02,
+        "expected_jobs_lost": 2337.52,
+        "open_treatment": "all_won",
+        "open_treatment_label": "All open cases win",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 960.85,
+          "usd_lost": 1302087.33
+        }
+      },
+      {
+        "key": "attrition_2_optimistic_predicted",
+        "label": "Full observed gap",
+        "gap_share": 1.0,
+        "change": {
+          "disputes": -13.1,
+          "disputes_lost": -111.04,
+          "usd_lost": -171071.22
+        },
+        "after": {
+          "disputes": 1578.9,
+          "disputes_lost": 965.39,
+          "usd_lost": 1290085.92
+        },
+        "attrition_change": {
+          "disputes": -13.1,
+          "disputes_lost": -8.85,
+          "usd_lost": -1890.13
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": -102.19,
+          "usd_lost": -169181.09
+        },
+        "title": "optimistic",
+        "attrition_rate": 0.02,
+        "expected_jobs_lost": 2337.52,
+        "open_treatment": "predicted",
+        "open_treatment_label": "Probability weighted",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 1076.43,
+          "usd_lost": 1461157.14
+        }
+      },
+      {
+        "key": "attrition_2_optimistic_all_lost",
+        "label": "Full observed gap",
+        "gap_share": 1.0,
+        "change": {
+          "disputes": -13.1,
+          "disputes_lost": -111.53,
+          "usd_lost": -171174.85
+        },
+        "after": {
+          "disputes": 1578.9,
+          "disputes_lost": 1024.32,
+          "usd_lost": 1346515.47
+        },
+        "attrition_change": {
+          "disputes": -13.1,
+          "disputes_lost": -9.34,
+          "usd_lost": -1993.76
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": -102.19,
+          "usd_lost": -169181.09
+        },
+        "title": "optimistic",
+        "attrition_rate": 0.02,
+        "expected_jobs_lost": 2337.52,
+        "open_treatment": "all_lost",
+        "open_treatment_label": "All open cases lose",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 1135.85,
+          "usd_lost": 1517690.32
+        }
+      },
+      {
+        "key": "attrition_3_conservative_all_won",
+        "label": "Attrition only",
+        "gap_share": 0.0,
+        "change": {
+          "disputes": -19.65,
+          "disputes_lost": -12.09,
+          "usd_lost": -2580.13
+        },
+        "after": {
+          "disputes": 1572.35,
+          "disputes_lost": 948.76,
+          "usd_lost": 1299507.2
+        },
+        "attrition_change": {
+          "disputes": -19.65,
+          "disputes_lost": -12.09,
+          "usd_lost": -2580.13
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "title": "conservative",
+        "attrition_rate": 0.03,
+        "expected_jobs_lost": 3506.28,
+        "open_treatment": "all_won",
+        "open_treatment_label": "All open cases win",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 960.85,
+          "usd_lost": 1302087.33
+        }
+      },
+      {
+        "key": "attrition_3_conservative_predicted",
+        "label": "Attrition only",
+        "gap_share": 0.0,
+        "change": {
+          "disputes": -19.65,
+          "disputes_lost": -13.27,
+          "usd_lost": -2835.21
+        },
+        "after": {
+          "disputes": 1572.35,
+          "disputes_lost": 1063.15,
+          "usd_lost": 1458321.93
+        },
+        "attrition_change": {
+          "disputes": -19.65,
+          "disputes_lost": -13.27,
+          "usd_lost": -2835.21
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "title": "conservative",
+        "attrition_rate": 0.03,
+        "expected_jobs_lost": 3506.28,
+        "open_treatment": "predicted",
+        "open_treatment_label": "Probability weighted",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 1076.43,
+          "usd_lost": 1461157.14
+        }
+      },
+      {
+        "key": "attrition_3_conservative_all_lost",
+        "label": "Attrition only",
+        "gap_share": 0.0,
+        "change": {
+          "disputes": -19.65,
+          "disputes_lost": -14.01,
+          "usd_lost": -2990.65
+        },
+        "after": {
+          "disputes": 1572.35,
+          "disputes_lost": 1121.84,
+          "usd_lost": 1514699.68
+        },
+        "attrition_change": {
+          "disputes": -19.65,
+          "disputes_lost": -14.01,
+          "usd_lost": -2990.65
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "title": "conservative",
+        "attrition_rate": 0.03,
+        "expected_jobs_lost": 3506.28,
+        "open_treatment": "all_lost",
+        "open_treatment_label": "All open cases lose",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 1135.85,
+          "usd_lost": 1517690.32
+        }
+      },
+      {
+        "key": "central_all_won",
+        "label": "Half the observed gap",
+        "gap_share": 0.5,
+        "change": {
+          "disputes": -19.65,
+          "disputes_lost": -57.53,
+          "usd_lost": -76991.64
+        },
+        "after": {
+          "disputes": 1572.35,
+          "disputes_lost": 903.32,
+          "usd_lost": 1225095.69
+        },
+        "attrition_change": {
+          "disputes": -19.65,
+          "disputes_lost": -12.09,
+          "usd_lost": -2580.13
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": -45.44,
+          "usd_lost": -74411.51
+        },
+        "title": "central",
+        "attrition_rate": 0.03,
+        "expected_jobs_lost": 3506.28,
+        "open_treatment": "all_won",
+        "open_treatment_label": "All open cases win",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 960.85,
+          "usd_lost": 1302087.33
+        }
+      },
+      {
+        "key": "central",
+        "label": "Half the observed gap",
+        "gap_share": 0.5,
+        "change": {
+          "disputes": -19.65,
+          "disputes_lost": -64.21,
+          "usd_lost": -87392.0
+        },
+        "after": {
+          "disputes": 1572.35,
+          "disputes_lost": 1012.22,
+          "usd_lost": 1373765.14
+        },
+        "attrition_change": {
+          "disputes": -19.65,
+          "disputes_lost": -13.27,
+          "usd_lost": -2835.21
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": -50.94,
+          "usd_lost": -84556.79
+        },
+        "title": "central",
+        "attrition_rate": 0.03,
+        "expected_jobs_lost": 3506.28,
+        "open_treatment": "predicted",
+        "open_treatment_label": "Probability weighted",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 1076.43,
+          "usd_lost": 1461157.14
+        }
+      },
+      {
+        "key": "central_all_lost",
+        "label": "Half the observed gap",
+        "gap_share": 0.5,
+        "change": {
+          "disputes": -19.65,
+          "disputes_lost": -64.95,
+          "usd_lost": -87547.44
+        },
+        "after": {
+          "disputes": 1572.35,
+          "disputes_lost": 1070.9,
+          "usd_lost": 1430142.88
+        },
+        "attrition_change": {
+          "disputes": -19.65,
+          "disputes_lost": -14.01,
+          "usd_lost": -2990.65
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": -50.94,
+          "usd_lost": -84556.79
+        },
+        "title": "central",
+        "attrition_rate": 0.03,
+        "expected_jobs_lost": 3506.28,
+        "open_treatment": "all_lost",
+        "open_treatment_label": "All open cases lose",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 1135.85,
+          "usd_lost": 1517690.32
+        }
+      },
+      {
+        "key": "attrition_3_optimistic_all_won",
+        "label": "Full observed gap",
+        "gap_share": 1.0,
+        "change": {
+          "disputes": -19.65,
+          "disputes_lost": -102.96,
+          "usd_lost": -151403.14
+        },
+        "after": {
+          "disputes": 1572.35,
+          "disputes_lost": 857.89,
+          "usd_lost": 1150684.19
+        },
+        "attrition_change": {
+          "disputes": -19.65,
+          "disputes_lost": -12.09,
+          "usd_lost": -2580.13
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": -90.87,
+          "usd_lost": -148823.01
+        },
+        "title": "optimistic",
+        "attrition_rate": 0.03,
+        "expected_jobs_lost": 3506.28,
+        "open_treatment": "all_won",
+        "open_treatment_label": "All open cases win",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 960.85,
+          "usd_lost": 1302087.33
+        }
+      },
+      {
+        "key": "attrition_3_optimistic_predicted",
+        "label": "Full observed gap",
+        "gap_share": 1.0,
+        "change": {
+          "disputes": -19.65,
+          "disputes_lost": -115.13,
+          "usd_lost": -171948.8
+        },
+        "after": {
+          "disputes": 1572.35,
+          "disputes_lost": 961.29,
+          "usd_lost": 1289208.35
+        },
+        "attrition_change": {
+          "disputes": -19.65,
+          "disputes_lost": -13.27,
+          "usd_lost": -2835.21
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": -101.86,
+          "usd_lost": -169113.59
+        },
+        "title": "optimistic",
+        "attrition_rate": 0.03,
+        "expected_jobs_lost": 3506.28,
+        "open_treatment": "predicted",
+        "open_treatment_label": "Probability weighted",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 1076.43,
+          "usd_lost": 1461157.14
+        }
+      },
+      {
+        "key": "attrition_3_optimistic_all_lost",
+        "label": "Full observed gap",
+        "gap_share": 1.0,
+        "change": {
+          "disputes": -19.65,
+          "disputes_lost": -115.87,
+          "usd_lost": -172104.23
+        },
+        "after": {
+          "disputes": 1572.35,
+          "disputes_lost": 1019.98,
+          "usd_lost": 1345586.09
+        },
+        "attrition_change": {
+          "disputes": -19.65,
+          "disputes_lost": -14.01,
+          "usd_lost": -2990.65
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": -101.86,
+          "usd_lost": -169113.58
+        },
+        "title": "optimistic",
+        "attrition_rate": 0.03,
+        "expected_jobs_lost": 3506.28,
+        "open_treatment": "all_lost",
+        "open_treatment_label": "All open cases lose",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 1135.85,
+          "usd_lost": 1517690.32
+        }
+      },
+      {
+        "key": "attrition_4_conservative_all_won",
+        "label": "Attrition only",
+        "gap_share": 0.0,
+        "change": {
+          "disputes": -26.2,
+          "disputes_lost": -16.12,
+          "usd_lost": -3440.18
+        },
+        "after": {
+          "disputes": 1565.8,
+          "disputes_lost": 944.73,
+          "usd_lost": 1298647.16
+        },
+        "attrition_change": {
+          "disputes": -26.2,
+          "disputes_lost": -16.12,
+          "usd_lost": -3440.18
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "title": "conservative",
+        "attrition_rate": 0.04,
+        "expected_jobs_lost": 4675.04,
+        "open_treatment": "all_won",
+        "open_treatment_label": "All open cases win",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 960.85,
+          "usd_lost": 1302087.33
+        }
+      },
+      {
+        "key": "attrition_4_conservative_predicted",
+        "label": "Attrition only",
+        "gap_share": 0.0,
+        "change": {
+          "disputes": -26.2,
+          "disputes_lost": -17.7,
+          "usd_lost": -3780.28
+        },
+        "after": {
+          "disputes": 1565.8,
+          "disputes_lost": 1058.73,
+          "usd_lost": 1457376.86
+        },
+        "attrition_change": {
+          "disputes": -26.2,
+          "disputes_lost": -17.7,
+          "usd_lost": -3780.28
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "title": "conservative",
+        "attrition_rate": 0.04,
+        "expected_jobs_lost": 4675.04,
+        "open_treatment": "predicted",
+        "open_treatment_label": "Probability weighted",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 1076.43,
+          "usd_lost": 1461157.14
+        }
+      },
+      {
+        "key": "attrition_4_conservative_all_lost",
+        "label": "Attrition only",
+        "gap_share": 0.0,
+        "change": {
+          "disputes": -26.2,
+          "disputes_lost": -18.68,
+          "usd_lost": -3987.52
+        },
+        "after": {
+          "disputes": 1565.8,
+          "disputes_lost": 1117.17,
+          "usd_lost": 1513702.8
+        },
+        "attrition_change": {
+          "disputes": -26.2,
+          "disputes_lost": -18.68,
+          "usd_lost": -3987.52
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "title": "conservative",
+        "attrition_rate": 0.04,
+        "expected_jobs_lost": 4675.04,
+        "open_treatment": "all_lost",
+        "open_treatment_label": "All open cases lose",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 1135.85,
+          "usd_lost": 1517690.32
+        }
+      },
+      {
+        "key": "attrition_4_central_all_won",
+        "label": "Half the observed gap",
+        "gap_share": 0.5,
+        "change": {
+          "disputes": -26.2,
+          "disputes_lost": -61.41,
+          "usd_lost": -77820.54
+        },
+        "after": {
+          "disputes": 1565.8,
+          "disputes_lost": 899.44,
+          "usd_lost": 1224266.79
+        },
+        "attrition_change": {
+          "disputes": -26.2,
+          "disputes_lost": -16.12,
+          "usd_lost": -3440.18
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": -45.29,
+          "usd_lost": -74380.36
+        },
+        "title": "central",
+        "attrition_rate": 0.04,
+        "expected_jobs_lost": 4675.04,
+        "open_treatment": "all_won",
+        "open_treatment_label": "All open cases win",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 960.85,
+          "usd_lost": 1302087.33
+        }
+      },
+      {
+        "key": "attrition_4_central_predicted",
+        "label": "Half the observed gap",
+        "gap_share": 0.5,
+        "change": {
+          "disputes": -26.2,
+          "disputes_lost": -68.47,
+          "usd_lost": -88303.33
+        },
+        "after": {
+          "disputes": 1565.8,
+          "disputes_lost": 1007.96,
+          "usd_lost": 1372853.81
+        },
+        "attrition_change": {
+          "disputes": -26.2,
+          "disputes_lost": -17.7,
+          "usd_lost": -3780.28
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": -50.77,
+          "usd_lost": -84523.05
+        },
+        "title": "central",
+        "attrition_rate": 0.04,
+        "expected_jobs_lost": 4675.04,
+        "open_treatment": "predicted",
+        "open_treatment_label": "Probability weighted",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 1076.43,
+          "usd_lost": 1461157.14
+        }
+      },
+      {
+        "key": "attrition_4_central_all_lost",
+        "label": "Half the observed gap",
+        "gap_share": 0.5,
+        "change": {
+          "disputes": -26.2,
+          "disputes_lost": -69.46,
+          "usd_lost": -88510.57
+        },
+        "after": {
+          "disputes": 1565.8,
+          "disputes_lost": 1066.39,
+          "usd_lost": 1429179.75
+        },
+        "attrition_change": {
+          "disputes": -26.2,
+          "disputes_lost": -18.68,
+          "usd_lost": -3987.52
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": -50.78,
+          "usd_lost": -84523.05
+        },
+        "title": "central",
+        "attrition_rate": 0.04,
+        "expected_jobs_lost": 4675.04,
+        "open_treatment": "all_lost",
+        "open_treatment_label": "All open cases lose",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 1135.85,
+          "usd_lost": 1517690.32
+        }
+      },
+      {
+        "key": "attrition_4_optimistic_all_won",
+        "label": "Full observed gap",
+        "gap_share": 1.0,
+        "change": {
+          "disputes": -26.2,
+          "disputes_lost": -106.7,
+          "usd_lost": -152200.89
+        },
+        "after": {
+          "disputes": 1565.8,
+          "disputes_lost": 854.15,
+          "usd_lost": 1149886.44
+        },
+        "attrition_change": {
+          "disputes": -26.2,
+          "disputes_lost": -16.12,
+          "usd_lost": -3440.18
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": -90.58,
+          "usd_lost": -148760.71
+        },
+        "title": "optimistic",
+        "attrition_rate": 0.04,
+        "expected_jobs_lost": 4675.04,
+        "open_treatment": "all_won",
+        "open_treatment_label": "All open cases win",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 960.85,
+          "usd_lost": 1302087.33
+        }
+      },
+      {
+        "key": "attrition_4_optimistic_predicted",
+        "label": "Full observed gap",
+        "gap_share": 1.0,
+        "change": {
+          "disputes": -26.2,
+          "disputes_lost": -119.24,
+          "usd_lost": -172826.37
+        },
+        "after": {
+          "disputes": 1565.8,
+          "disputes_lost": 957.18,
+          "usd_lost": 1288330.77
+        },
+        "attrition_change": {
+          "disputes": -26.2,
+          "disputes_lost": -17.7,
+          "usd_lost": -3780.28
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": -101.54,
+          "usd_lost": -169046.09
+        },
+        "title": "optimistic",
+        "attrition_rate": 0.04,
+        "expected_jobs_lost": 4675.04,
+        "open_treatment": "predicted",
+        "open_treatment_label": "Probability weighted",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 1076.43,
+          "usd_lost": 1461157.14
+        }
+      },
+      {
+        "key": "attrition_4_optimistic_all_lost",
+        "label": "Full observed gap",
+        "gap_share": 1.0,
+        "change": {
+          "disputes": -26.2,
+          "disputes_lost": -120.23,
+          "usd_lost": -173033.62
+        },
+        "after": {
+          "disputes": 1565.8,
+          "disputes_lost": 1015.62,
+          "usd_lost": 1344656.71
+        },
+        "attrition_change": {
+          "disputes": -26.2,
+          "disputes_lost": -18.68,
+          "usd_lost": -3987.52
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": -101.55,
+          "usd_lost": -169046.1
+        },
+        "title": "optimistic",
+        "attrition_rate": 0.04,
+        "expected_jobs_lost": 4675.04,
+        "open_treatment": "all_lost",
+        "open_treatment_label": "All open cases lose",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 1135.85,
+          "usd_lost": 1517690.32
+        }
+      }
+    ],
+    "results": [
+      {
+        "policy": "address_mandatory",
+        "metric": "disputes",
+        "estimated_change": -19.65,
+        "low": -26.2,
+        "high": -13.1
+      },
+      {
+        "policy": "address_mandatory",
+        "metric": "disputes_lost",
+        "estimated_change": -64.21,
+        "low": -120.23,
+        "high": -8.06
+      },
+      {
+        "policy": "address_mandatory",
+        "metric": "usd_lost",
+        "estimated_change": -87392.0,
+        "low": -173033.62,
+        "high": -1720.08
+      }
+    ],
+    "comparisons": [
+      {
+        "band": "under_300",
+        "absent_loss_rate": 0.7318840579710145,
+        "present_loss_rate": 0.6336996336996337,
+        "gap": 0.09818442427138085,
+        "absent_resolved": 276,
+        "present_resolved": 273
+      },
+      {
+        "band": "300_or_more",
+        "absent_loss_rate": 0.7310344827586207,
+        "present_loss_rate": 0.5964391691394659,
+        "gap": 0.13459531361915478,
+        "absent_resolved": 435,
+        "present_resolved": 337
+      }
+    ],
+    "assumptions": [
+      "Central attrition is 3% of all jobs under $300, including jobs already showing an address. Sensitivity cases use 2% and 4%.",
+      "The 2% to 4% range is an analyst-chosen sensitivity assumption around the brief's approximate 3%.",
+      "Central estimates use 3% attrition and 50% gap closure. Bounds span all nine attrition and evidence combinations.",
+      "Attrition removes disputes and losses proportionally within each amount band.",
+      "Retained jobs have unchanged dispute incidence.",
+      "Only retained jobs lacking addresses receive the assumed evidence benefit.",
+      "Central benefit closes half the observed resolved-loss-rate gap, with zero and full closure as bounds.",
+      "Avoided losses have the historical average lost amount plus $25 fee within their absent-address amount band.",
+      "Won and lost outcomes are fixed. Open cases add one minus predicted win probability as expected losses.",
+      "Expected open-case dollars lost use disputed amount plus $25 multiplied by loss probability.",
+      "Policy evidence reduces each unresolved case's loss probability by its group's gap times scenario benefit, capped at zero.",
+      "Each case remains counted as a dispute under every outcome treatment. Existing attrition assumptions alone change dispute counts.",
+      "Withdrawn cases are assigned predicted outcomes in this sensitivity mode."
+    ],
+    "limitations": [
+      "These are scenario bounds. They are not statistical confidence intervals.",
+      "Invoice addresses are historical snapshot values. Their availability before a dispute is unverified.",
+      "Team, job type, and other differences can explain the observed rate gap.",
+      "Fifty-two payments without invoice matches are outside the supplied aggregate cohort.",
+      "Job attrition can reduce payment volume. Revenue or margin impact is not included in dispute-loss savings.",
+      "Withdrawn-case probabilities are unvalidated because the model trained on won and lost cases. This mode reinterprets recorded withdrawals.",
+      "Probabilities for open cases are extrapolated from resolved disputes. Follow-up and selection differences can affect calibration.",
+      "The point estimate is an expectation. The range spans explicit scenarios rather than a statistical confidence interval."
+    ],
+    "analysis_mode": "withdrawn_sensitivity",
+    "resolved_baseline": {
+      "disputes": 1592,
+      "disputes_lost": 894,
+      "usd_lost": 1243318.55
+    },
+    "baseline_label": "Expected baseline with probability-weighted outcomes",
+    "outcome_counts": {
+      "open": 175,
+      "withdrawn": 96
+    }
+  },
+  {
+    "policy": "signed_estimate_over_1000",
+    "name": "Signed estimates above $1,000",
+    "description": "Require a signed estimate when invoice amount is strictly above $1,000.",
+    "period": "Months 1\u201322",
+    "source": "Invoice-status and per-reason dispute aggregates supplied by the user in chat. Invoice amount is strictly greater than $1,000. Portfolio baseline comes from the user's historical address aggregates.",
+    "confidence": "Low",
+    "baseline": {
+      "disputes": 1592,
+      "disputes_lost": 1076.43,
+      "usd_lost": 1461157.14
+    },
+    "baseline_scope": "Full months 1\u201322 historical portfolio",
+    "affected_invoices": 14131,
+    "expected_jobs_lost": 0,
+    "scenarios": [
+      {
+        "key": "conservative_all_won",
+        "label": "No evidence benefit",
+        "gap_share": 0.0,
+        "change": {
+          "disputes": 0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "after": {
+          "disputes": 1592,
+          "disputes_lost": 960.85,
+          "usd_lost": 1302087.33
+        },
+        "attrition_change": {
+          "disputes": 0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "evidence_change": {
+          "disputes": 0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "open_treatment": "all_won",
+        "open_treatment_label": "All open cases win",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 960.85,
+          "usd_lost": 1302087.33
+        }
+      },
+      {
+        "key": "conservative_predicted",
+        "label": "No evidence benefit",
+        "gap_share": 0.0,
+        "change": {
+          "disputes": 0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "after": {
+          "disputes": 1592,
+          "disputes_lost": 1076.43,
+          "usd_lost": 1461157.14
+        },
+        "attrition_change": {
+          "disputes": 0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "evidence_change": {
+          "disputes": 0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "open_treatment": "predicted",
+        "open_treatment_label": "Probability weighted",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 1076.43,
+          "usd_lost": 1461157.14
+        }
+      },
+      {
+        "key": "conservative_all_lost",
+        "label": "No evidence benefit",
+        "gap_share": 0.0,
+        "change": {
+          "disputes": 0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "after": {
+          "disputes": 1592,
+          "disputes_lost": 1135.85,
+          "usd_lost": 1517690.32
+        },
+        "attrition_change": {
+          "disputes": 0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "evidence_change": {
+          "disputes": 0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "open_treatment": "all_lost",
+        "open_treatment_label": "All open cases lose",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 1135.85,
+          "usd_lost": 1517690.32
+        }
+      },
+      {
+        "key": "central_all_won",
+        "label": "Half the observed gap",
+        "gap_share": 0.5,
+        "change": {
+          "disputes": 0,
+          "disputes_lost": -19.43,
+          "usd_lost": -89032.93
+        },
+        "after": {
+          "disputes": 1592,
+          "disputes_lost": 941.42,
+          "usd_lost": 1213054.4
+        },
+        "attrition_change": {
+          "disputes": 0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "evidence_change": {
+          "disputes": 0,
+          "disputes_lost": -19.43,
+          "usd_lost": -89032.93
+        },
+        "open_treatment": "all_won",
+        "open_treatment_label": "All open cases win",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 960.85,
+          "usd_lost": 1302087.33
+        }
+      },
+      {
+        "key": "central",
+        "label": "Half the observed gap",
+        "gap_share": 0.5,
+        "change": {
+          "disputes": 0,
+          "disputes_lost": -22.28,
+          "usd_lost": -99993.91
+        },
+        "after": {
+          "disputes": 1592,
+          "disputes_lost": 1054.14,
+          "usd_lost": 1361163.23
+        },
+        "attrition_change": {
+          "disputes": 0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "evidence_change": {
+          "disputes": 0,
+          "disputes_lost": -22.28,
+          "usd_lost": -99993.91
+        },
+        "open_treatment": "predicted",
+        "open_treatment_label": "Probability weighted",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 1076.43,
+          "usd_lost": 1461157.14
+        }
+      },
+      {
+        "key": "central_all_lost",
+        "label": "Half the observed gap",
+        "gap_share": 0.5,
+        "change": {
+          "disputes": 0,
+          "disputes_lost": -22.28,
+          "usd_lost": -99993.91
+        },
+        "after": {
+          "disputes": 1592,
+          "disputes_lost": 1113.57,
+          "usd_lost": 1417696.41
+        },
+        "attrition_change": {
+          "disputes": 0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "evidence_change": {
+          "disputes": 0,
+          "disputes_lost": -22.28,
+          "usd_lost": -99993.91
+        },
+        "open_treatment": "all_lost",
+        "open_treatment_label": "All open cases lose",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 1135.85,
+          "usd_lost": 1517690.32
+        }
+      },
+      {
+        "key": "optimistic_all_won",
+        "label": "Full observed gap",
+        "gap_share": 1.0,
+        "change": {
+          "disputes": 0,
+          "disputes_lost": -38.88,
+          "usd_lost": -178065.87
+        },
+        "after": {
+          "disputes": 1592,
+          "disputes_lost": 921.97,
+          "usd_lost": 1124021.46
+        },
+        "attrition_change": {
+          "disputes": 0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "evidence_change": {
+          "disputes": 0,
+          "disputes_lost": -38.88,
+          "usd_lost": -178065.87
+        },
+        "open_treatment": "all_won",
+        "open_treatment_label": "All open cases win",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 960.85,
+          "usd_lost": 1302087.33
+        }
+      },
+      {
+        "key": "optimistic_predicted",
+        "label": "Full observed gap",
+        "gap_share": 1.0,
+        "change": {
+          "disputes": 0,
+          "disputes_lost": -44.58,
+          "usd_lost": -199987.84
+        },
+        "after": {
+          "disputes": 1592,
+          "disputes_lost": 1031.85,
+          "usd_lost": 1261169.3
+        },
+        "attrition_change": {
+          "disputes": 0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "evidence_change": {
+          "disputes": 0,
+          "disputes_lost": -44.58,
+          "usd_lost": -199987.84
+        },
+        "open_treatment": "predicted",
+        "open_treatment_label": "Probability weighted",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 1076.43,
+          "usd_lost": 1461157.14
+        }
+      },
+      {
+        "key": "optimistic_all_lost",
+        "label": "Full observed gap",
+        "gap_share": 1.0,
+        "change": {
+          "disputes": 0,
+          "disputes_lost": -44.58,
+          "usd_lost": -199987.84
+        },
+        "after": {
+          "disputes": 1592,
+          "disputes_lost": 1091.27,
+          "usd_lost": 1317702.48
+        },
+        "attrition_change": {
+          "disputes": 0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "evidence_change": {
+          "disputes": 0,
+          "disputes_lost": -44.58,
+          "usd_lost": -199987.84
+        },
+        "open_treatment": "all_lost",
+        "open_treatment_label": "All open cases lose",
+        "baseline": {
+          "disputes": 1592,
+          "disputes_lost": 1135.85,
+          "usd_lost": 1517690.32
+        }
+      }
+    ],
+    "results": [
+      {
+        "policy": "signed_estimate_over_1000",
+        "metric": "disputes",
+        "estimated_change": 0,
+        "low": 0,
+        "high": 0
+      },
+      {
+        "policy": "signed_estimate_over_1000",
+        "metric": "disputes_lost",
+        "estimated_change": -22.28,
+        "low": -44.58,
+        "high": 0.0
+      },
+      {
+        "policy": "signed_estimate_over_1000",
+        "metric": "usd_lost",
+        "estimated_change": -99993.91,
+        "low": -199987.84,
+        "high": 0.0
+      }
+    ],
+    "comparisons": [
+      {
+        "reason": "service_not_provided",
+        "unsigned_resolved": 44,
+        "signed_resolved": 27,
+        "unsigned_loss_rate": 0.7272727272727273,
+        "signed_loss_rate": 0.6296296296296297,
+        "assumed_gap": 0.09764309764309764
+      },
+      {
+        "reason": "fraud",
+        "unsigned_resolved": 80,
+        "signed_resolved": 42,
+        "unsigned_loss_rate": 0.7875,
+        "signed_loss_rate": 0.8571428571428571,
+        "assumed_gap": 0
+      },
+      {
+        "reason": "not_as_described",
+        "unsigned_resolved": 76,
+        "signed_resolved": 34,
+        "unsigned_loss_rate": 0.7236842105263158,
+        "signed_loss_rate": 0.35294117647058826,
+        "assumed_gap": 0.37074303405572756
+      },
+      {
+        "reason": "credit_not_processed",
+        "unsigned_resolved": 14,
+        "signed_resolved": 6,
+        "unsigned_loss_rate": 0.6428571428571429,
+        "signed_loss_rate": 0.3333333333333333,
+        "assumed_gap": 0.3095238095238096
+      },
+      {
+        "reason": "duplicate",
+        "unsigned_resolved": 4,
+        "signed_resolved": 3,
+        "unsigned_loss_rate": 0.25,
+        "signed_loss_rate": 0.0,
+        "assumed_gap": 0.0
+      }
+    ],
+    "gap_description": "The gap is the observed difference in resolved loss rates for unsigned and signed estimates within each dispute reason.",
+    "population_notes": [
+      "Unsigned invoices above $1,000 (14,131) are affected.",
+      "Expected job-volume side effects are zero. Dispute incidence stays unchanged.",
+      "Evidence benefit is calculated separately by dispute reason. The baseline covers the full historical portfolio.",
+      "Baseline shown uses predicted open outcomes. Each scenario has a baseline using the same outcome treatment as its counterfactual.",
+      "The range combines policy assumptions with all-won, predicted, and all-lost open outcomes."
+    ],
+    "assumptions": [
+      "Invoices of exactly $1,000 are outside the supplied eligible cohort.",
+      "No job attrition, payment delay, or additional operating cost is assumed.",
+      "Central benefit closes half the positive observed resolved-loss-rate gap within each reason. The bounds use zero and full closure.",
+      "Fraud receives zero benefit because signed estimates had a higher observed loss rate.",
+      "Duplicate receives zero benefit because its signed sample has only three resolved cases.",
+      "Avoided losses use the unsigned group's average lost principal plus the $25 fee, separately by reason.",
+      "Policies are evaluated independently. Their estimated savings must not be added without modelling overlap.",
+      "Won and lost outcomes are fixed. Open cases add one minus predicted win probability as expected losses.",
+      "Expected open-case dollars lost use disputed amount plus $25 multiplied by loss probability.",
+      "Policy evidence reduces each unresolved case's loss probability by its group's gap times scenario benefit, capped at zero.",
+      "Each case remains counted as a dispute under every outcome treatment. Existing attrition assumptions alone change dispute counts.",
+      "Withdrawn cases are assigned predicted outcomes in this sensitivity mode."
+    ],
+    "limitations": [
+      "Historical invoices are August 2026 snapshots. We cannot verify whether signed estimates were collected before payment or dispute.",
+      "The observed win-rate difference may partly reflect later evidence collection or differences between jobs and teams.",
+      "These are scenario bounds. They are not statistical confidence intervals.",
+      "Credit-not-processed has only six resolved signed cases, so its estimated benefit is especially uncertain.",
+      "The lower disputed share for signed invoices is observational. No reduction in dispute incidence is assumed.",
+      "Withdrawn-case probabilities are unvalidated because the model trained on won and lost cases. This mode reinterprets recorded withdrawals.",
+      "Probabilities for open cases are extrapolated from resolved disputes. Follow-up and selection differences can affect calibration.",
+      "The point estimate is an expectation. The range spans explicit scenarios rather than a statistical confidence interval."
+    ],
+    "analysis_mode": "withdrawn_sensitivity",
+    "resolved_baseline": {
+      "disputes": 1592,
+      "disputes_lost": 894,
+      "usd_lost": 1243318.55
+    },
+    "baseline_label": "Expected baseline with probability-weighted outcomes",
+    "outcome_counts": {
+      "open": 175,
+      "withdrawn": 96
+    }
+  }
+]

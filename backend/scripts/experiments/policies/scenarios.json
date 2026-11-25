@@ -1,0 +1,519 @@
+[
+  {
+    "policy": "address_mandatory",
+    "name": "Mandatory customer address",
+    "description": "Require a customer address on every invoice.",
+    "period": "Months 1\u201322",
+    "source": "Aggregate SQL results supplied by the user in this chat. No source CSVs were read for this policy.",
+    "confidence": "Low",
+    "baseline": {
+      "disputes": 1592,
+      "disputes_lost": 894,
+      "usd_lost": 1243318.55
+    },
+    "affected_invoices": 104886,
+    "expected_jobs_lost": 3506.28,
+    "excluded_payments": 52,
+    "gap_description": "The gap is the observed difference in resolved loss rates for invoices with and without addresses.",
+    "population_notes": [
+      "Jobs currently missing addresses (104,886) are affected by the evidence requirement.",
+      "Central expected jobs leaving ScanPay (3,506.28) use the 3% assumption across all jobs under $300.",
+      "Attrition varies over 2%, 3%, and 4%, independently of evidence benefit. All nine combinations determine the scenario bounds.",
+      "The evidence benefit applies after attrition, separately within each amount band."
+    ],
+    "scenarios": [
+      {
+        "key": "attrition_2_conservative",
+        "label": "Attrition only",
+        "gap_share": 0.0,
+        "change": {
+          "disputes": -13.1,
+          "disputes_lost": -7.5,
+          "usd_lost": -1608.2
+        },
+        "after": {
+          "disputes": 1578.9,
+          "disputes_lost": 886.5,
+          "usd_lost": 1241710.35
+        },
+        "attrition_change": {
+          "disputes": -13.1,
+          "disputes_lost": -7.5,
+          "usd_lost": -1608.2
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "title": "conservative",
+        "attrition_rate": 0.02,
+        "expected_jobs_lost": 2337.52
+      },
+      {
+        "key": "attrition_2_central",
+        "label": "Half the observed gap",
+        "gap_share": 0.5,
+        "change": {
+          "disputes": -13.1,
+          "disputes_lost": -50.05,
+          "usd_lost": -72899.18
+        },
+        "after": {
+          "disputes": 1578.9,
+          "disputes_lost": 843.95,
+          "usd_lost": 1170419.37
+        },
+        "attrition_change": {
+          "disputes": -13.1,
+          "disputes_lost": -7.5,
+          "usd_lost": -1608.2
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": -42.55,
+          "usd_lost": -71290.98
+        },
+        "title": "central",
+        "attrition_rate": 0.02,
+        "expected_jobs_lost": 2337.52
+      },
+      {
+        "key": "attrition_2_optimistic",
+        "label": "Full observed gap",
+        "gap_share": 1.0,
+        "change": {
+          "disputes": -13.1,
+          "disputes_lost": -92.61,
+          "usd_lost": -144190.16
+        },
+        "after": {
+          "disputes": 1578.9,
+          "disputes_lost": 801.39,
+          "usd_lost": 1099128.39
+        },
+        "attrition_change": {
+          "disputes": -13.1,
+          "disputes_lost": -7.5,
+          "usd_lost": -1608.2
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": -85.11,
+          "usd_lost": -142581.96
+        },
+        "title": "optimistic",
+        "attrition_rate": 0.02,
+        "expected_jobs_lost": 2337.52
+      },
+      {
+        "key": "attrition_3_conservative",
+        "label": "Attrition only",
+        "gap_share": 0.0,
+        "change": {
+          "disputes": -19.65,
+          "disputes_lost": -11.25,
+          "usd_lost": -2412.31
+        },
+        "after": {
+          "disputes": 1572.35,
+          "disputes_lost": 882.75,
+          "usd_lost": 1240906.24
+        },
+        "attrition_change": {
+          "disputes": -19.65,
+          "disputes_lost": -11.25,
+          "usd_lost": -2412.31
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "title": "conservative",
+        "attrition_rate": 0.03,
+        "expected_jobs_lost": 3506.28
+      },
+      {
+        "key": "central",
+        "label": "Half the observed gap",
+        "gap_share": 0.5,
+        "change": {
+          "disputes": -19.65,
+          "disputes_lost": -53.67,
+          "usd_lost": -73674.35
+        },
+        "after": {
+          "disputes": 1572.35,
+          "disputes_lost": 840.33,
+          "usd_lost": 1169644.2
+        },
+        "attrition_change": {
+          "disputes": -19.65,
+          "disputes_lost": -11.25,
+          "usd_lost": -2412.31
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": -42.42,
+          "usd_lost": -71262.04
+        },
+        "title": "central",
+        "attrition_rate": 0.03,
+        "expected_jobs_lost": 3506.28
+      },
+      {
+        "key": "attrition_3_optimistic",
+        "label": "Full observed gap",
+        "gap_share": 1.0,
+        "change": {
+          "disputes": -19.65,
+          "disputes_lost": -96.08,
+          "usd_lost": -144936.39
+        },
+        "after": {
+          "disputes": 1572.35,
+          "disputes_lost": 797.92,
+          "usd_lost": 1098382.16
+        },
+        "attrition_change": {
+          "disputes": -19.65,
+          "disputes_lost": -11.25,
+          "usd_lost": -2412.31
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": -84.83,
+          "usd_lost": -142524.08
+        },
+        "title": "optimistic",
+        "attrition_rate": 0.03,
+        "expected_jobs_lost": 3506.28
+      },
+      {
+        "key": "attrition_4_conservative",
+        "label": "Attrition only",
+        "gap_share": 0.0,
+        "change": {
+          "disputes": -26.2,
+          "disputes_lost": -15.0,
+          "usd_lost": -3216.41
+        },
+        "after": {
+          "disputes": 1565.8,
+          "disputes_lost": 879.0,
+          "usd_lost": 1240102.14
+        },
+        "attrition_change": {
+          "disputes": -26.2,
+          "disputes_lost": -15.0,
+          "usd_lost": -3216.41
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "title": "conservative",
+        "attrition_rate": 0.04,
+        "expected_jobs_lost": 4675.04
+      },
+      {
+        "key": "attrition_4_central",
+        "label": "Half the observed gap",
+        "gap_share": 0.5,
+        "change": {
+          "disputes": -26.2,
+          "disputes_lost": -57.28,
+          "usd_lost": -74449.52
+        },
+        "after": {
+          "disputes": 1565.8,
+          "disputes_lost": 836.72,
+          "usd_lost": 1168869.03
+        },
+        "attrition_change": {
+          "disputes": -26.2,
+          "disputes_lost": -15.0,
+          "usd_lost": -3216.41
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": -42.28,
+          "usd_lost": -71233.11
+        },
+        "title": "central",
+        "attrition_rate": 0.04,
+        "expected_jobs_lost": 4675.04
+      },
+      {
+        "key": "attrition_4_optimistic",
+        "label": "Full observed gap",
+        "gap_share": 1.0,
+        "change": {
+          "disputes": -26.2,
+          "disputes_lost": -99.56,
+          "usd_lost": -145682.62
+        },
+        "after": {
+          "disputes": 1565.8,
+          "disputes_lost": 794.44,
+          "usd_lost": 1097635.93
+        },
+        "attrition_change": {
+          "disputes": -26.2,
+          "disputes_lost": -15.0,
+          "usd_lost": -3216.41
+        },
+        "evidence_change": {
+          "disputes": 0.0,
+          "disputes_lost": -84.56,
+          "usd_lost": -142466.21
+        },
+        "title": "optimistic",
+        "attrition_rate": 0.04,
+        "expected_jobs_lost": 4675.04
+      }
+    ],
+    "results": [
+      {
+        "policy": "address_mandatory",
+        "metric": "disputes",
+        "estimated_change": -19.65,
+        "low": -26.2,
+        "high": -13.1
+      },
+      {
+        "policy": "address_mandatory",
+        "metric": "disputes_lost",
+        "estimated_change": -53.67,
+        "low": -99.56,
+        "high": -7.5
+      },
+      {
+        "policy": "address_mandatory",
+        "metric": "usd_lost",
+        "estimated_change": -73674.35,
+        "low": -145682.62,
+        "high": -1608.2
+      }
+    ],
+    "comparisons": [
+      {
+        "band": "under_300",
+        "absent_loss_rate": 0.7318840579710145,
+        "present_loss_rate": 0.6336996336996337,
+        "gap": 0.09818442427138085,
+        "absent_resolved": 276,
+        "present_resolved": 273
+      },
+      {
+        "band": "300_or_more",
+        "absent_loss_rate": 0.7310344827586207,
+        "present_loss_rate": 0.5964391691394659,
+        "gap": 0.13459531361915478,
+        "absent_resolved": 435,
+        "present_resolved": 337
+      }
+    ],
+    "assumptions": [
+      "Central attrition is 3% of all jobs under $300, including jobs already showing an address. Sensitivity cases use 2% and 4%.",
+      "The 2% to 4% range is an analyst-chosen sensitivity assumption around the brief's approximate 3%.",
+      "Central estimates use 3% attrition and 50% gap closure. Bounds span all nine attrition and evidence combinations.",
+      "Attrition removes disputes and losses proportionally within each amount band.",
+      "Retained jobs have unchanged dispute incidence.",
+      "Only retained jobs lacking addresses receive the assumed evidence benefit.",
+      "Central benefit closes half the observed resolved-loss-rate gap, with zero and full closure as bounds.",
+      "Avoided losses have the historical average lost amount plus $25 fee within their absent-address amount band.",
+      "Open and withdrawn disputes receive no assumed outcome improvement."
+    ],
+    "limitations": [
+      "These are scenario bounds. They are not statistical confidence intervals.",
+      "Invoice addresses are historical snapshot values. Their availability before a dispute is unverified.",
+      "Team, job type, and other differences can explain the observed rate gap.",
+      "Fifty-two payments without invoice matches are outside the supplied aggregate cohort.",
+      "Job attrition can reduce payment volume. Revenue or margin impact is not included in dispute-loss savings."
+    ]
+  },
+  {
+    "policy": "signed_estimate_over_1000",
+    "name": "Signed estimates above $1,000",
+    "description": "Require a signed estimate when invoice amount is strictly above $1,000.",
+    "period": "Months 1\u201322",
+    "source": "Invoice-status and per-reason dispute aggregates supplied by the user in chat. Invoice amount is strictly greater than $1,000. Portfolio baseline comes from the user's historical address aggregates.",
+    "confidence": "Low",
+    "baseline": {
+      "disputes": 1592,
+      "disputes_lost": 894,
+      "usd_lost": 1243318.55
+    },
+    "baseline_scope": "Full months 1\u201322 historical portfolio",
+    "affected_invoices": 14131,
+    "expected_jobs_lost": 0,
+    "scenarios": [
+      {
+        "key": "conservative",
+        "label": "No evidence benefit",
+        "gap_share": 0.0,
+        "change": {
+          "disputes": 0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        },
+        "after": {
+          "disputes": 1592,
+          "disputes_lost": 894.0,
+          "usd_lost": 1243318.55
+        },
+        "attrition_change": {
+          "disputes": 0,
+          "disputes_lost": 0,
+          "usd_lost": 0
+        },
+        "evidence_change": {
+          "disputes": 0,
+          "disputes_lost": 0.0,
+          "usd_lost": 0.0
+        }
+      },
+      {
+        "key": "central",
+        "label": "Half the observed gap",
+        "gap_share": 0.5,
+        "change": {
+          "disputes": 0,
+          "disputes_lost": -18.4,
+          "usd_lost": -86511.49
+        },
+        "after": {
+          "disputes": 1592,
+          "disputes_lost": 875.6,
+          "usd_lost": 1156807.06
+        },
+        "attrition_change": {
+          "disputes": 0,
+          "disputes_lost": 0,
+          "usd_lost": 0
+        },
+        "evidence_change": {
+          "disputes": 0,
+          "disputes_lost": -18.4,
+          "usd_lost": -86511.49
+        }
+      },
+      {
+        "key": "optimistic",
+        "label": "Full observed gap",
+        "gap_share": 1.0,
+        "change": {
+          "disputes": 0,
+          "disputes_lost": -36.81,
+          "usd_lost": -173022.99
+        },
+        "after": {
+          "disputes": 1592,
+          "disputes_lost": 857.19,
+          "usd_lost": 1070295.56
+        },
+        "attrition_change": {
+          "disputes": 0,
+          "disputes_lost": 0,
+          "usd_lost": 0
+        },
+        "evidence_change": {
+          "disputes": 0,
+          "disputes_lost": -36.81,
+          "usd_lost": -173022.99
+        }
+      }
+    ],
+    "results": [
+      {
+        "policy": "signed_estimate_over_1000",
+        "metric": "disputes",
+        "estimated_change": 0,
+        "low": 0,
+        "high": 0
+      },
+      {
+        "policy": "signed_estimate_over_1000",
+        "metric": "disputes_lost",
+        "estimated_change": -18.4,
+        "low": -36.81,
+        "high": 0.0
+      },
+      {
+        "policy": "signed_estimate_over_1000",
+        "metric": "usd_lost",
+        "estimated_change": -86511.49,
+        "low": -173022.99,
+        "high": 0.0
+      }
+    ],
+    "comparisons": [
+      {
+        "reason": "service_not_provided",
+        "unsigned_resolved": 44,
+        "signed_resolved": 27,
+        "unsigned_loss_rate": 0.7272727272727273,
+        "signed_loss_rate": 0.6296296296296297,
+        "assumed_gap": 0.09764309764309764
+      },
+      {
+        "reason": "fraud",
+        "unsigned_resolved": 80,
+        "signed_resolved": 42,
+        "unsigned_loss_rate": 0.7875,
+        "signed_loss_rate": 0.8571428571428571,
+        "assumed_gap": 0
+      },
+      {
+        "reason": "not_as_described",
+        "unsigned_resolved": 76,
+        "signed_resolved": 34,
+        "unsigned_loss_rate": 0.7236842105263158,
+        "signed_loss_rate": 0.35294117647058826,
+        "assumed_gap": 0.37074303405572756
+      },
+      {
+        "reason": "credit_not_processed",
+        "unsigned_resolved": 14,
+        "signed_resolved": 6,
+        "unsigned_loss_rate": 0.6428571428571429,
+        "signed_loss_rate": 0.3333333333333333,
+        "assumed_gap": 0.3095238095238096
+      },
+      {
+        "reason": "duplicate",
+        "unsigned_resolved": 4,
+        "signed_resolved": 3,
+        "unsigned_loss_rate": 0.25,
+        "signed_loss_rate": 0.0,
+        "assumed_gap": 0.0
+      }
+    ],
+    "gap_description": "The gap is the observed difference in resolved loss rates for unsigned and signed estimates within each dispute reason.",
+    "population_notes": [
+      "Unsigned invoices above $1,000 (14,131) are affected.",
+      "Expected job-volume side effects are zero. Dispute incidence stays unchanged.",
+      "Evidence benefit is calculated separately by dispute reason. The baseline covers the full historical portfolio."
+    ],
+    "assumptions": [
+      "Invoices of exactly $1,000 are outside the supplied eligible cohort.",
+      "No job attrition, payment delay, or additional operating cost is assumed.",
+      "Central benefit closes half the positive observed resolved-loss-rate gap within each reason. The bounds use zero and full closure.",
+      "Fraud receives zero benefit because signed estimates had a higher observed loss rate.",
+      "Duplicate receives zero benefit because its signed sample has only three resolved cases.",
+      "Avoided losses use the unsigned group's average lost principal plus the $25 fee, separately by reason.",
+      "Open and withdrawn disputes receive no assumed outcome change.",
+      "Policies are evaluated independently. Their estimated savings must not be added without modelling overlap."
+    ],
+    "limitations": [
+      "Historical invoices are August 2026 snapshots. We cannot verify whether signed estimates were collected before payment or dispute.",
+      "The observed win-rate difference may partly reflect later evidence collection or differences between jobs and teams.",
+      "These are scenario bounds. They are not statistical confidence intervals.",
+      "Credit-not-processed has only six resolved signed cases, so its estimated benefit is especially uncertain.",
+      "The lower disputed share for signed invoices is observational. No reduction in dispute incidence is assumed."
+    ]
+  }
+]

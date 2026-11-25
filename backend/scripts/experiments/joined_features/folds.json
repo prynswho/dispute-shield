@@ -1,0 +1,16 @@
+[
+  {
+    "fold": 1,
+    "cutoff": "2025-10-27 07:02:42+00:00",
+    "train_rows": 515,
+    "test_rows": 330,
+    "excluded_by_closure": 145
+  },
+  {
+    "fold": 2,
+    "cutoff": "2026-02-28 09:27:11+00:00",
+    "train_rows": 857,
+    "test_rows": 331,
+    "excluded_by_closure": 133
+  }
+]

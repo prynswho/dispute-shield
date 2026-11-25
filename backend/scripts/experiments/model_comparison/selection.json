@@ -1,0 +1,27 @@
+{
+  "selected_model": "v1",
+  "reference_model": "v1",
+  "minimum_log_loss_gain_each_fold": 0.01,
+  "boosting_tie_break": "hgb_v1",
+  "explanation_only_models": [
+    "v1_without_merchant_responded"
+  ],
+  "boosting_candidates": {
+    "hgb_v1": {
+      "eligible": false,
+      "log_loss_gain_by_fold": {
+        "1": -0.0172798425547216,
+        "2": -0.0066670059448375
+      },
+      "mean_log_loss": 0.5295785849620832
+    },
+    "hgb_v1+A+B+C+D": {
+      "eligible": false,
+      "log_loss_gain_by_fold": {
+        "1": -0.0337540625695657,
+        "2": -0.0272114908586844
+      },
+      "mean_log_loss": 0.5480879374264287
+    }
+  }
+}

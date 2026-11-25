@@ -1,0 +1,26 @@
+[
+  {
+    "fold": 1,
+    "cutoff": "2025-09-08T17:34:01+00:00",
+    "test_end_exclusive": "2026-01-25T10:58:17+00:00",
+    "train_rows": 90932,
+    "test_rows": 45466,
+    "train_disputed_rows": 674,
+    "test_disputed_rows": 395,
+    "train_dispute_rate": 0.007412132142700039,
+    "test_dispute_rate": 0.00868781067171073,
+    "sorted_test_ids_sha256": "000cf11b7016b2efa44403241f7f405a9a5f7f6e14c3ded02732fe0f86a048b4"
+  },
+  {
+    "fold": 2,
+    "cutoff": "2026-01-25T10:58:17+00:00",
+    "test_end_exclusive": null,
+    "train_rows": 136398,
+    "test_rows": 45466,
+    "train_disputed_rows": 1069,
+    "test_disputed_rows": 334,
+    "train_dispute_rate": 0.007837358319036937,
+    "test_dispute_rate": 0.0073461487705098315,
+    "sorted_test_ids_sha256": "103a4ae0f831450720a2231c2705e38dd8ad339658e0f36b43ba817a5c36fd25"
+  }
+]

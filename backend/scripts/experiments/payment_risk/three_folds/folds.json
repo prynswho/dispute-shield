@@ -1,0 +1,38 @@
+[
+  {
+    "fold": 1,
+    "cutoff": "2025-07-21T22:39:38+00:00",
+    "test_end_exclusive": "2025-10-31T07:31:46+00:00",
+    "train_rows": 72745,
+    "test_rows": 36373,
+    "train_disputed_rows": 529,
+    "test_disputed_rows": 300,
+    "train_dispute_rate": 0.007271977455495223,
+    "test_dispute_rate": 0.00824787617188574,
+    "sorted_test_ids_sha256": "4f2e364276adef52b41ed38518beb552d5c0acd44d321796dffc46fe557041a1"
+  },
+  {
+    "fold": 2,
+    "cutoff": "2025-10-31T07:31:46+00:00",
+    "test_end_exclusive": "2026-02-22T01:49:22+00:00",
+    "train_rows": 109118,
+    "test_rows": 36373,
+    "train_disputed_rows": 829,
+    "test_disputed_rows": 307,
+    "train_dispute_rate": 0.007597280008797815,
+    "test_dispute_rate": 0.008440326615896407,
+    "sorted_test_ids_sha256": "f6d30fd182a29d167f41e2f97900c2a0abb4e9649344406c3115a6e67c9267b6"
+  },
+  {
+    "fold": 3,
+    "cutoff": "2026-02-22T01:49:22+00:00",
+    "test_end_exclusive": null,
+    "train_rows": 145491,
+    "test_rows": 36373,
+    "train_disputed_rows": 1136,
+    "test_disputed_rows": 267,
+    "train_dispute_rate": 0.007808043109195758,
+    "test_dispute_rate": 0.007340609792978308,
+    "sorted_test_ids_sha256": "18e9e169ca01451635934567e8dc839a1931e2f2d8b3f523260a5201800d6b82"
+  }
+]

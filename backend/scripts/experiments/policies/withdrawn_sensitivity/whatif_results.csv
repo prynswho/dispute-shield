@@ -1,0 +1,7 @@
+policy,metric,estimated_change,low,high
+address_mandatory,disputes,-19.65,-26.2,-13.1
+address_mandatory,disputes_lost,-64.21,-120.23,-8.06
+address_mandatory,usd_lost,-87392.0,-173033.62,-1720.08
+signed_estimate_over_1000,disputes,0,0,0
+signed_estimate_over_1000,disputes_lost,-22.28,-44.58,0.0
+signed_estimate_over_1000,usd_lost,-99993.91,-199987.84,0.0

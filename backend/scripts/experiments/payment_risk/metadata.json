@@ -1,0 +1,72 @@
+{
+  "cohort": {
+    "payment_rows_read": 221344,
+    "collection_end_exclusive": "2026-06-01T00:00:00+00:00",
+    "payments_before_collection_end": 181864,
+    "payments_excluded_on_or_after_collection_end": 39480,
+    "payments_excluded_missing_invoice": 0,
+    "payments_eligible": 181864,
+    "eligible_payments_with_dispute": 1403
+  },
+  "label": "Payment ID appears in the supplied disputes snapshot, regardless of dispute outcome.",
+  "label_timing": "Labels use the full snapshot, so fold-time label availability and follow-up are unverified.",
+  "invoice_timing": "Invoice flags, line_item_count, and job_type are supplied snapshot values.",
+  "photo_timing": "Photos on the same invoice count when uploaded_at <= collected_at.",
+  "fold_edges": [
+    0.5,
+    0.75,
+    1.0
+  ],
+  "constant_features": [],
+  "lookup_features": [
+    "payment_method",
+    "avs_result"
+  ],
+  "learned_features_with_flags": {
+    "categorical": [
+      "payment_method",
+      "card_country",
+      "card_type",
+      "avs_result",
+      "cvv_result",
+      "job_type"
+    ],
+    "numeric": [
+      "log_amount_usd",
+      "tip_usd",
+      "line_item_count",
+      "photos_before_at_payment",
+      "photos_after_at_payment"
+    ],
+    "binary": [
+      "receipt_sent",
+      "customer_address_present",
+      "customer_email_present",
+      "customer_phone_present",
+      "signed_estimate",
+      "terms_accepted",
+      "tech_gps_checkin",
+      "completion_signature"
+    ]
+  },
+  "learned_features_without_flags": {
+    "categorical": [
+      "payment_method",
+      "card_country",
+      "card_type",
+      "avs_result",
+      "cvv_result",
+      "job_type"
+    ],
+    "numeric": [
+      "log_amount_usd",
+      "tip_usd",
+      "line_item_count",
+      "photos_before_at_payment",
+      "photos_after_at_payment"
+    ],
+    "binary": [
+      "receipt_sent"
+    ]
+  }
+}

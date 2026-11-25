@@ -1,0 +1,17 @@
+{
+  "stage": "invoice",
+  "selection_rule": "Strictly lower log loss than the constant in both folds and verified feature timing.",
+  "beat_constant_in_both_folds": [],
+  "snapshot_dependent_candidates": [
+    "lookup",
+    "logistic",
+    "boosting"
+  ],
+  "selected": null,
+  "blank_export": true,
+  "amount_band_edges_usd": [
+    100,
+    300,
+    1000
+  ]
+}
