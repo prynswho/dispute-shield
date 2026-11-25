@@ -1,6 +1,2 @@
-fastapi
-uvicorn
-python-multipart
-scikit-learn
-
-pandas>=2.0
+# Use the artifact-compatible versions for local development and deployment.
+-r requirements-runtime.txt
