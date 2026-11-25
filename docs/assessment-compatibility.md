@@ -18,9 +18,9 @@ on them. Passing a build does not establish accuracy on unseen months 23–24.
 | Score every uploaded payment, exact CSV columns | Implemented with explicit abstention | Payment export schema matches the brief. Missing invoice links retain the payment and leave prediction fields blank, with an Unscored status. All invoice-win values are intentionally blank. |
 | Score every uploaded dispute, exact CSV columns | Implemented for valid linked rows | Frozen logistic produces win_prob and fight/accept. Duplicate IDs, malformed inputs, and inconsistent joins are rejected. |
 | Use months 1–22 models; never retrain on uploads | Implemented | Inference loads checked-in artifacts. Training functions are invoked only by offline scripts. Current audit did not independently re-establish artifact provenance from source datasets. |
-| Invoice readiness and what to add now | Partial workflow | Payment review already includes invoice readiness and actionable evidence guidance. There is no standalone invoice-only prepayment upload. Blank invoice probability is explicitly permitted by the export contract and explained by failed validation plus timing uncertainty. |
+| Invoice readiness and what to add now | Intentional abstention with guidance | Payment review includes invoice readiness and actionable evidence guidance. invoice_win_prob is intentionally blank: no invoice candidate beat the constant in both locked folds, and the historical snapshot cannot reconstruct invoice-ready fields. A separate invoice-only upload is not required by the application specification and is not a missing deliverable. |
 | Per-payment predictions and actions | Implemented | `PaymentDetail.jsx`, `PredictionTables.jsx`, `features.EVIDENCE_RULES`: address, estimate, terms, completion confirmation, itemization/description, receipt, photos, high-risk review. These are registry rules, not causal model explanations. |
-| Dispute moment: can we win, what evidence to submit, worth fighting | Partial | Win probability and economic recommendation exist. A dispute-specific checklist comparing available evidence with evidence_submitted is absent. Payment-level evidence guidance is present and is not counted as missing. |
+| Dispute moment: can we win, what evidence to submit, worth fighting | Required scoring implemented; optional guidance enhancement | Win probability and economic recommendation exist. Payment-level evidence guidance is implemented. Comparing available evidence with evidence_submitted in a dedicated dispute checklist would strengthen the problem-statement experience; it is not an explicitly required separate application feature. |
 | Pick a team: payments, disputes, results, main gaps | Implemented with outcome limitation | Team view filters uploaded rows and shows historical win rate/losses and gaps. Uploaded disputes show Pending because Step 2 supplies no outcomes. No teams.csv upload is required by the brief. |
 | Across teams: disputes, win rate, dollars lost by reason | Implemented | Historical summary and reason filter. Win rate uses won/(won+lost); dollars lost uses lost principal + $25. Uploaded pending disputes are shown separately. |
 | Mandatory-address policy, months 1–22 | Implemented with assumptions | Three metrics, central estimate and bounds. 3% attrition across all under-$300 jobs; 2%/4% sensitivity. Evidence effects use observational gaps by amount band. Team/job confounding remains. |
@@ -61,6 +61,22 @@ on them. Passing a build does not establish accuracy on unseen months 23–24.
   timestamps. Dispute scoring is conditional on their supplied state; opening-time
   validation does not prove those values were known at first notification.
 
+## Confirmed earlier invoice decision
+
+The earlier chat evaluated lookup, logistic regression, and boosting on the locked
+invoice folds. None beat the constant in both folds, so invoice_win_prob stays
+blank. The agreed application surfaces a readiness checklist within payment review.
+
+Invoice created_at dates the record, not a signature or other evidence. A generic
+updated_at cannot identify which field changed, its previous value, or whether
+changes occurred before payment, after payment, or after a dispute. The snapshot
+has no field-level edit/signature history establishing those events. We must not
+claim that an invoice actually reopened or that a signature was added later; those
+are possibilities the available history cannot resolve. Timestamped photo uploads
+support their own cutoff, but do not recover invoice-ready field values. A
+standalone checklist could describe a supplied current invoice; it would not
+validate a historical win probability or solve this timing limitation.
+
 ## Current verification
 
 The following passed using made-up data only:
@@ -85,8 +101,9 @@ unseen-month accuracy, or a fresh historical-data reproduction run.
 1. Export the actual full AI histories as transcript.md; do not fabricate it.
 2. Finalize and supply the separate 2–3-page approach document with current
    model decisions, policy assumptions, and limits.
-3. Decide whether to add dispute-specific evidence submission guidance and a
-   standalone invoice-readiness flow, or explicitly disclose these workflow gaps.
+3. Keep the intentional blank invoice probability and existing checklist guidance
+   explicit in the final document. Dispute-specific evidence submission guidance
+   is optional product polish, not a required additional upload workflow.
 4. Confirm the Railway allowance covers at least seven days.
 5. Have the user rerun historical reproduction commands locally if a fresh
    data-based confirmation is wanted. Preserve frozen models and fold edges.

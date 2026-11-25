@@ -81,8 +81,9 @@ miss the required 0.01 gain in each fold; calibration worsens the saved comparis
 
 Invoice probability remains blank. All three invoice approaches were tried;
 none beat the constant in both locked folds, and snapshot timing is unverified.
-An invoice checklist is shown within payment review; there is no invoice-only
-upload workflow before payment.
+An invoice checklist is shown within payment review, as agreed. A separate
+invoice-only upload is not required and would not resolve the snapshot timing
+limitation.
 
 The risk model removes `customer_address_present`, `customer_email_present`,
 `customer_phone_present`, `signed_estimate`, `terms_accepted`, `tech_gps_checkin`,

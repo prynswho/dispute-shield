@@ -131,8 +131,10 @@ so the frozen deployment models remain unchanged.
 
 The app, exports, three model families per target, rejected experiments, and
 two policy analyses are implemented. The [assessment audit](docs/assessment-compatibility.md)
-records remaining gaps: the full as-is `transcript.md`, a separate final
-2–3-page approach document, dispute-specific evidence guidance, an invoice-only
-readiness workflow, and confirmed hosting for at least seven days. Snapshot
+records remaining submission items: the full as-is `transcript.md`, a separate
+final 2–3-page approach document, and confirmed hosting for at least seven days.
+Blank invoice probability and readiness guidance within payment review are
+intentional decisions, not an incomplete standalone invoice workflow. A dedicated
+dispute-evidence checklist is optional polish. Snapshot
 field timing, risk-label follow-up, calibration, and policy confounding remain
 limitations. Passing the build does not establish complete assessment compliance.
